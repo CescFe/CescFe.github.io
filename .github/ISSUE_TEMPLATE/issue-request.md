@@ -1,6 +1,6 @@
 ---
-name: Issue template
-about: Describe this issue template's purpose here.
+name: Issue request
+about: Describe this issue request's purpose here.
 title: ''
 labels: feature
 assignees: FrancescFe

@@ -1,10 +1,9 @@
 ---
 name: Issue request
 about: Describe this issue request's purpose here.
-title: ''
+title: ""
 labels: feature
 assignees: FrancescFe
-
 ---
 
 ### Description

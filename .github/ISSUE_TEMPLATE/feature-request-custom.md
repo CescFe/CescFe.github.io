@@ -1,6 +1,6 @@
 ---
-name: Issue request
-about: Describe this issue request's purpose here.
+name: 💻 Feature request Custom
+about: Describe this feature request's purpose here.
 title: ""
 labels: feature
 assignees: FrancescFe

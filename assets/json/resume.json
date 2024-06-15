@@ -2,26 +2,42 @@
   "basics": {
     "nom": "Francesc Ferrer Pastor",
     "professió": "Lexicògraf, impressor, docent",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "image": "./assets/img/portrait_ferrer_pastor_2_color.jpg",
+    "naixement": "La Font d'en Carròs (la Safor), 13 de desembre de 1918",
+    "traspas": "València (l'Horta), 11 de juliol de 2000",
+    "url": "https://www.fundacioferrerpastor.org/",
+    "llegat": "Important lexicògraf dedicat a la difussió, normalització i ús del valencià. Ampliament reconegut pels seus Diccionaris de Valencià",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "València",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Facebook",
+        "username": "Editorial Denes",
+        "url": "https://www.facebook.com/EditorialDenes/"
       }
     ]
   },
+  "awards": [
+    {
+      "title": "Medalla d'Or de la Universitat de València",
+      "date": "1998-12-21",
+      "awarder": "Universitat de València",
+      "url": "https://www.uv.es/uvweb/universitat/ca/universitat/actes-academics-institucionals/medalla-uv/medalla-uv-segle-xxi/data-lliurament/lliurament-medalla-uv-sr-francesc-ferrer-pastor-1286332027444/Medalla.html?id=1285878384945",
+      "summary": "'És autor de les obres lexicogràfiques valencianes més importants, com el Diccionari General i el Diccionari de la Rima;[...] i el més que conegut Vocabulari castellà - valencià i valencià - castellà. Francesc Ferrer Pastor forma part de l’important grup de persones que al llarg del segle XX han sigut indispensables per la recuperació i vertebració cultural, literària i lingüística del País Valencià.'"
+    },
+    {
+      "title": "Premi de les lletres de la Generalitat",
+      "date": "1994-10-04",
+      "awarder": "Generalitat Valenciana",
+      "url": "https://presidencia.gva.es/va/premis-9-doctubre/premis-de-les-lletres-de-la-generalitat",
+      "summary": "'El valencià, llengua propia i patrimoni comú de tots els ciutadans de la Comunitat Valenciana, és un instrument primordial per al dialeg i la cohesió del nostre poble, útil per a expressar qualsevol activitat humana, que ha sabut superar antigues persecucions i marginacions injustes. Cal fer constar que aquest fet ha sigut possible gracies a la recuperació de les nostres institucions d'autogovern i a les actuacions per elles promogudes; pero aixo hauria estat insuficient de no haver comptat amb l'estima deIs valencians per la seua llengua i amb el treball continu d'investigacions que han aconseguit que els seus estudis tingueren una cónsiderable transcendencia social.'"
+    }
+  ],
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
@@ -56,15 +72,6 @@
       "endDate": "1905-01-01",
       "score": "10",
       "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [

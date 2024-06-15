@@ -1,9 +1,12 @@
 github_users:
-  - FrancescFe
-  - FrancescFerrerR
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - CescFe/CescFe.github.io
-  - FrancescFe/api-pokemon
-  - FrancescFe/api-nba
-  - FrancescFerrerR/githubpage-fundacio-ferrer-pastor
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax

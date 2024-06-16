@@ -1,25 +1,65 @@
 ---
 layout: about
-title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
-profile:
-  align: right
-  image: portrait_ferrer_pastor_2_bw.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+title: about
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `portrait_ferrer_pastor_2_bw.jpg` and put it in the `img/` folder.
+<div class="post">
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+  <!-- Centered Image -->
+  <div style="text-align: center;">
+    <img src="{{ '/assets/img/about_banner.jpg' | relative_url }}" alt="Banner Image" style="max-width: 100%; height: auto;">
+  </div>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+{% assign blog_name_size = site.blog_name | size %}
+{% assign blog_description_size = site.blog_description | size %}
+
+{% if blog_name_size > 0 or blog_description_size > 0 %}
+
+  <div class="header-bar">
+    <h1>{{ site.blog_name }}</h1>
+    <h2>{{ site.blog_description }}</h2>
+  </div>
+  {% endif %}
+
+{% if site.display_tags or site.display_categories %}
+
+  <div class="tag-category-list">
+    <ul class="p-0 m-0">
+      {% for tag in site.display_tags %}
+        <li>
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        </li>
+        {% unless forloop.last %}
+          <p>&bull;</p>
+        {% endunless %}
+      {% endfor %}
+      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
+        <p>&bull;</p>
+      {% endif %}
+      {% for category in site.display_categories %}
+        <li>
+          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+        </li>
+        {% unless forloop.last %}
+          <p>&bull;</p>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <br>
+
+</div>
+
+Benvolgudes amigues i amics, aquesta és una primera versió de la nostra nova web. Actualment està en construcció i continuem treballant per actualitzar-la amb la informació del nostres diccionaris i vocabulares, els nostres autors i títols, així com el nostre material de biblioteca.
+
+Recordeu que poder sol·licitar els nostres materials per mitjà del nostre distribuidor [Exclusivas Graons](https://www.graons.com/).
+
+<br>
+<div style="text-align: center; margin-top: 20px;">
+  <img src="{{ '/assets/img/logo_denes_blue.gif' | relative_url }}" alt="Logo Denes" style="max-width: 30%; height: auto;">
+</div>
+<br>

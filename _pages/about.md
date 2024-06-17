@@ -54,7 +54,7 @@ social: true # includes social icons at the bottom of the page
 
 </div>
 
-Benvolgudes amigues i amics, aquesta és una primera versió de la nostra nova web. Actualment està en construcció i continuem treballant per actualitzar-la amb la informació del nostres diccionaris i vocabularis, els nostres autors i títols, el material de biblioteca i la resta del catàleg.
+Benvolgudes amigues i amics, aquesta és una primera versió de la nova web. Actualment està en construcció i continuem treballant per actualitzar-la amb la informació dels diccionaris i vocabularis, els autors i títols, el material de biblioteca i la resta del catàleg.
 
 Podeu sol·licitar les comandes a les llibreries de la vostra confiança o per les distribuïdores especialitzades:
 

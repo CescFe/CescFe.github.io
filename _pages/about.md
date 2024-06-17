@@ -58,7 +58,7 @@ Benvolgudes amigues i amics, aquesta és una primera versió de la nostra nova w
 
 Podeu sol·licitar les comandes a les llibreries de la vostra confiança o per les distribuïdores especialitzades:
 
-- [Exclusivas Graons](https://www.graons.com/).
+- [Exclusivas Graons](https://www.graons.com/)
 - Nordest Llibres: tlf. 972 67 23 54, email: nordest@nordest.es
 - Maidhisa: tlf. 91 670 21 29, email: ismaroto@hotmail.com
 

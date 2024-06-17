@@ -9,32 +9,17 @@
 
 </div>
 
-## Summary
-
-This is a humble project 
-
-## Table Of Contents
-
-- [Summary](#summary)
-- [Context](#context)
-- [Technologies](#technologies)
-- [Features](#features)
-- [Upcoming Features](#upcoming-features)
-  - [Roadmap](#roadmap)
-- [Contact](#contact)
-- [License](#license)
-
 ## Context
 
-## Technologies
-
-## Features
-
-## Upcoming Features
+This is a modest project with the aim of providing Editorial Denes that allows them to achieve an online presence. The development is iterative: firstly a minimal functionality website has been launched, but the plan is to improve and expanded it gradually.
 
 ### Roadmap
 
-## Contact
+TBD
+
+## Technologies
+
+TBD
 
 ## License
 

@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Developed by <a href="https://github.com/CescFe" target="_blank">CescFe</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: cat # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icondenes.gif # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://CescFe.github.io # the base hostname & protocol for your site
@@ -110,8 +110,8 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  :arrow_up: Pot contactar-nos punjant en les icones de les nostres xarxes socials. :arrow_up:
+contact_info: "Contacte:"
+contact_note: # You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -125,6 +125,23 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+
+# -----------------------------------------------------------------------------
+# About
+# -----------------------------------------------------------------------------
+
+about_banner: about_banner.jpg
+about_logo: logo_denes_blue.gif
+about_content: >
+  Benvolgudes amigues i amics, aquesta és una primera versió de la nova web. Actualment està en construcció i continuem treballant per actualitzar-la amb la informació dels diccionaris i vocabularis, els autors i títols, el material de biblioteca i la resta del catàleg.
+
+  Podeu sol·licitar les comandes a les llibreries de la vostra confiança o per les distribuïdores especialitzades:
+
+  - [Exclusivas Graons](https://www.graons.com/)
+
+  - Nordest Llibres (Catalunya): tlf. 972 67 23 54, email: nordest@nordest.es
+
+  - Maidhisa (Madrid): tlf. 91 670 21 29, email: ismaroto@hotmail.com
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -292,7 +309,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["diccionaris", "novetats", "catàleg complet", "material biblioteca", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_tags: ["diccionaris", "novetats", "col·leccions", "material biblioteca"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

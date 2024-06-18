@@ -7,9 +7,8 @@ social: true # includes social icons at the bottom of the page
 
 <div class="post">
 
-  <!-- Centered Image -->
   <div style="text-align: center;">
-    <img src="{{ '/assets/img/about_banner.jpg' | relative_url }}" alt="Banner Image" style="max-width: 100%; height: auto;">
+    <img src="{{ site.about_banner | prepend: '/assets/img/' | relative_url }}" alt="Banner Image" style="max-width: 100%; height: auto;">
   </div>
 
 {% assign blog_name_size = site.blog_name | size %}
@@ -54,16 +53,12 @@ social: true # includes social icons at the bottom of the page
 
 </div>
 
-Benvolgudes amigues i amics, aquesta és una primera versió de la nova web. Actualment està en construcció i continuem treballant per actualitzar-la amb la informació dels diccionaris i vocabularis, els autors i títols, el material de biblioteca i la resta del catàleg.
-
-Podeu sol·licitar les comandes a les llibreries de la vostra confiança o per les distribuïdores especialitzades:
-
-- [Exclusivas Graons](https://www.graons.com/)
-- Nordest Llibres: tlf. 972 67 23 54, email: nordest@nordest.es
-- Maidhisa: tlf. 91 670 21 29, email: ismaroto@hotmail.com
+{{ site.about_content }}
 
 <br>
 <div style="text-align: center; margin-top: 20px;">
-  <img src="{{ '/assets/img/logo_denes_blue.gif' | relative_url }}" alt="Logo Denes" style="max-width: 30%; height: auto;">
+  <img src="{{ site.about_logo | prepend: '/assets/img/' | relative_url }}" alt="Logo Denes" style="max-width: 30%; height: auto;">
 </div>
 <br>
+
+<p style="text-align: center;">{{ site.contact_info }}</p>

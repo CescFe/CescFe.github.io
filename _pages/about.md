@@ -7,7 +7,6 @@ social: true # includes social icons at the bottom of the page
 
 <div class="post">
 
-  <!-- Centered Image -->
   <div style="text-align: center;">
     <img src="{{ site.about_banner | prepend: '/assets/img/' | relative_url }}" alt="Banner Image" style="max-width: 100%; height: auto;">
   </div>

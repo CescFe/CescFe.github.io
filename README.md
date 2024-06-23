@@ -4,7 +4,7 @@
 
 [![Preview](assets/img/about_banner.jpg)](https://CescFe.github.io)
 
-[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/CescFe/CescFe.github.io/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/CescFe/CescFe.github.io)](https://github.com/CescFe/CescFe.github.io/releases/latest)
 [![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
 
 </div>

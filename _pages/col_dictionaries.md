@@ -2,7 +2,7 @@
 layout: page
 permalink: /dictionaries/
 title: diccionaris
-description: Els diccionaris i vocabularis de Francesc Ferrer Pastor.
+description: els diccionaris i vocabularis de Francesc Ferrer Pastor
 nav: true
 nav_order: 1
 ---

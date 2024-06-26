@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /dictionaries/
+permalink: /diccionaris/
 title: diccionaris
 description: els diccionaris i vocabularis de Francesc Ferrer Pastor
 nav: true

@@ -2,6 +2,8 @@ github_users:
   - FrancescFe
   - FrancescFerrerR
 
+repo_description_lines_max: 2
+
 github_repos:
   - CescFe/CescFe.github.io
   - FrancescFe/api-pokemon

@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: about
+title: principal
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -34,9 +34,12 @@ social: true # includes social icons at the bottom of the page
           <p>&bull;</p>
         {% endunless %}
       {% endfor %}
+      <br>
+      <!--
       {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
         <p>&bull;</p>
       {% endif %}
+      -->
       {% for category in site.display_categories %}
         <li>
           <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/' | relative_url }}">{{ category }}</a>
@@ -53,7 +56,7 @@ social: true # includes social icons at the bottom of the page
 
 </div>
 
-{{ site.about_content }}
+Benvolgudes amigues i amics, aquesta és una primera versió de la nova web. Actualment està en construcció i continuem treballant per actualitzar-la amb la informació dels diccionaris i vocabularis, els autors i títols, el material de biblioteca i la resta del catàleg.
 
 <br>
 <div style="text-align: center; margin-top: 20px;">

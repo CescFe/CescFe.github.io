@@ -11,24 +11,24 @@ nav_order: 2
 
 Podeu sol·licitar les comandes a les llibreries de la vostra confiança o per les distribuïdores especialitzades:
 
-
+<br>
 ## València-Castelló-Alacant
 
-**Nom del distribuïdor:** [Exclusivas Graons](https://www.graons.com/)  
+**[Exclusivas Graons](https://www.graons.com/)**  
 **Telèfon:** 961 58 82 99 | 961 56 00 22  
 **Email:** [info@graons.com](mailto:info@graons.com)
 
-
+<br>
 ## Catalunya
 
-**Nom del distribuïdor:** Nordest Llibres  
+**Nordest Llibres**  
 **Telèfon:** 972 67 23 54  
 **Email:** [nordest@nordest.es](mailto:nordest@nordest.es)
 
-
+<br>
 ## Madrid
 
-**Nom del distribuïdor:** Maidhisa  
+**Maidhisa**  
 **Telèfon:** 91 670 21 89  
 **Email:** [ismaroto@hotmail.com](mailto:ismaroto@hotmail.com)
 

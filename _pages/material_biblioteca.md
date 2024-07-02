@@ -1,6 +1,6 @@
 ---
 layout: page
-title: material biblioteca
+title: biblioteca
 permalink: /material-biblioteca/
 description: el material de biblioteca de Denes
 nav: true

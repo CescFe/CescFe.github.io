@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Test on redireccionar a entrada de llibre
+date: 2023-11-07 16:11:00+0000
 inline: false
 related_posts: false
 ---

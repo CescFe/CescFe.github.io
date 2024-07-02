@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test on redireccionar a l'entrada d'un llibre
+title: Test on redireccionar a entrada de llibre
 date: 2023-11-07 16:11:00+0000
 inline: false
 related_posts: false

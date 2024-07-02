@@ -31,6 +31,39 @@
       "summary": "'el Diccionari que ens ocupa és una de les tasques lexicogràfiques més importants que mai s’hagin dut a terme a València.', Germà Colon (1958)"
     }
   ],
+  "obres": [
+    {
+      "name": "Diccionari de la Rima",
+      "publisher": "Editorial Denes",
+      "releaseDate": "1956-05-01",
+      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+      "summary": "Diccionari de terminacions, la búsqueda es realitza per síl·laba tònica."
+    },
+    {
+      "name": "Gramàtica Valenciana",
+      "publisher": "Editorial Denes",
+      "releaseDate": "1992-03-18",
+      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+      "summary": "Obra lexicogràfica destinada a aprofundir en les normes gramaticals."
+    },
+    {
+      "name": "Lliçons d'Ortografia",
+      "publisher": "Editorial Denes",
+      "releaseDate": "1993-03-20",
+      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
+      "summary": "Obra lexicogràfica orientada a explicar píndoles ortogràfiques."
+    }
+  ],
+  "projectes": [
+    {
+      "name": "Diccionari de Refranys",
+      "summary": "Diccionari de refranys valencians recopilats per Ferrer Pastor",
+      "highlights": ["Diccionari", "Refranys"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
+    }
+  ],
   "treball": [
     {
       "name": "Cursos de Valencià, Rat Penat",
@@ -131,27 +164,16 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "obres": [
+  "referències": [
     {
-      "name": "Diccionari de la Rima",
-      "publisher": "Editorial Denes",
-      "releaseDate": "1956-05-01",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "Diccionari de terminacions, la búsqueda es realitza per síl·laba tònica."
+      "name": "Maria Àngels Alcolea i Campos",
+      "icon": "fa-solid fa-laptop",
+      "reference": "https://memoriavalencianista.cat/biografies/ferrer-pastor-francesc"
     },
     {
-      "name": "Gramàtica Valenciana",
-      "publisher": "Editorial Denes",
-      "releaseDate": "1992-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "Obra lexicogràfica destinada a aprofundir en les normes gramaticals."
-    },
-    {
-      "name": "Lliçons d'Ortografia",
-      "publisher": "Editorial Denes",
-      "releaseDate": "1993-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "Obra lexicogràfica orientada a explicar píndoles ortogràfiques."
+      "name": "Diari la veu",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "https://www.diarilaveu.cat/apunts/el-diccionari-de-la-rima-de-francesc-ferrer-pastor-314092/"
     }
   ],
   "skills": [
@@ -193,28 +215,6 @@
         "Quantum Communication",
         "Quantum Teleportation"
       ]
-    }
-  ],
-  "referències": [
-    {
-      "name": "Maria Àngels Alcolea i Campos",
-      "icon": "fa-solid fa-laptop",
-      "reference": "https://memoriavalencianista.cat/biografies/ferrer-pastor-francesc"
-    },
-    {
-      "name": "Diari la veu",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "https://www.diarilaveu.cat/apunts/el-diccionari-de-la-rima-de-francesc-ferrer-pastor-314092/"
-    }
-  ],
-  "projectes": [
-    {
-      "name": "Diccionari de Refranys",
-      "summary": "Diccionari de refranys valencians recopilats per Ferrer Pastor",
-      "highlights": ["Diccionari", "Refranys"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }

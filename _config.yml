@@ -643,7 +643,7 @@ jsonresume:
   - projectes
   - activitat cívica
   - reconeixements
-  - certificacions
+  #- certificacions
   #- skills
   #- languages
   #- interests

@@ -16,7 +16,6 @@ pretty_table: true
     <tr>
       <th data-field="id">Referència</th>
       <th data-field="name">Descripció</th>
-      <th data-field="price_without_taxes">PVP (sense IVA)</th>
       <th data-field="price_with_taxes">PVP (IVA inclòs)</th>
     </tr>
   </thead>

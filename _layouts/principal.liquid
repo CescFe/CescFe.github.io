@@ -16,32 +16,32 @@ layout: about
     </div>
   {% endif %}
 
-{% if site.display_tags or site.display_categories %}
+  {% if site.display_tags or site.display_categories %}
     <div class="tag-category-list">
-        <ul class="p-0 m-0">
-            {% for tag in site.display_tags %}
-                <li>
-                <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/' | relative_url }}">{{ tag }}</a>
-                </li>
-                {% unless forloop.last %}
-                <p>&bull;</p>
-                {% endunless %}
-            {% endfor %}
+      <ul class="p-0 m-0">
+        {% for tag in site.display_tags %}
+          <li>
+            <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/' | relative_url }}">{{ tag }}</a>
+          </li>
+          {% unless forloop.last %}
+            <p>&bull;</p>
+          {% endunless %}
+        {% endfor %}
         <br>
         <!--
-            {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-                <p>&bull;</p>
-            {% endif %}
+          {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
+            <p>&bull;</p>
+          {% endif %}
         -->
-            {% for category in site.display_categories %}
-                <li>
-                    <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/' | relative_url }}">{{ category }}</a>
-                </li>
-                {% unless forloop.last %}
-                    <p>&bull;</p>
-                {% endunless %}
-            {% endfor %}
-        </ul>
+        {% for category in site.display_categories %}
+          <li>
+            <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/' | relative_url }}">{{ category }}</a>
+          </li>
+          {% unless forloop.last %}
+            <p>&bull;</p>
+          {% endunless %}
+        {% endfor %}
+      </ul>
     </div>
   {% endif %}
 

@@ -14,9 +14,9 @@ pretty_table: true
   data-url="{{ '/assets/json/table_data.json' | relative_url }}">
   <thead>
     <tr>
-      <th data-field="id">Referència</th>
+      <th data-field="id">ID</th>
       <th data-field="name">Descripció</th>
-      <th data-field="price_with_taxes">PVP (IVA inclòs)</th>
+      <th data-field="price_with_taxes">PVP</th>
     </tr>
   </thead>
 </table>

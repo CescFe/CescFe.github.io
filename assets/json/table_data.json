@@ -1,269 +1,128 @@
 [
   {
-    "id": "MB00",
-    "id_facturaplus": "MBB001",
-    "name": "500 Bossetes prèstec",
-    "price_without_taxes": "41,89€",
-    "price_with_taxes": "50,68€",
-    "amount": 500
+    "id": 0,
+    "name": "Item 0",
+    "price": "$0",
+    "amount": 3
   },
   {
-    "id": "MB01",
-    "id_facturaplus": "MBB002",
-    "name": "1.000 Bossetes prèstec",
-    "price_without_taxes": "79,31€",
-    "price_with_taxes": "95,97€",
-    "amount": 1000
+    "id": 1,
+    "name": "Item 1",
+    "price": "$1",
+    "amount": 4
   },
   {
-    "id": "MB02",
-    "id_facturaplus": "MBB011",
-    "name": "1.500 Bossetes prèstec",
-    "price_without_taxes": "117,77€",
-    "price_with_taxes": "142,50€",
-    "amount": 1500
+    "id": 2,
+    "name": "Item 2",
+    "price": "$2",
+    "amount": 8
   },
   {
-    "id": "MB03",
-    "id_facturaplus": "MBB003",
-    "name": "2.000 Bossetes prèstec",
-    "price_without_taxes": "156,47€",
-    "price_with_taxes": "189,73€",
-    "amount": 2000
+    "id": 3,
+    "name": "Item 3",
+    "price": "$3",
+    "amount": 2
   },
   {
-    "id": "MB04",
-    "id_facturaplus": "MBB004",
-    "name": "3.000 Bossetes prèstec",
-    "price_without_taxes": "233,73€",
-    "price_with_taxes": "282,22€",
-    "amount": 3000
+    "id": 4,
+    "name": "Item 4",
+    "price": "$4",
+    "amount": 90
   },
   {
-    "id": "MB05",
-    "id_facturaplus": "BOSPRE10",
-    "name": "10.000 Bossetes prèstec",
-    "price_without_taxes": "559,00€",
-    "price_with_taxes": "676,78€",
-    "amount": 10000
+    "id": 5,
+    "name": "Item 5",
+    "price": "$5",
+    "amount": 2
   },
   {
-    "id": "MB06",
-    "id_facturaplus": "BOSPRE20",
-    "name": "20.000 Bossetes prèstec",
-    "price_without_taxes": "1116,36€",
-    "price_with_taxes": "1351,69€",
-    "amount": 20000
+    "id": 6,
+    "name": "Item 6",
+    "price": "$6",
+    "amount": 3
   },
   {
-    "id": "MB07",
-    "id_facturaplus": "MBF001",
-    "name": "500 Fitxes grogues",
-    "price_without_taxes": "33,42€",
-    "price_with_taxes": "40,45€",
-    "amount": 500
+    "id": 7,
+    "name": "Item 7",
+    "price": "$7",
+    "amount": 7
   },
   {
-    "id": "MB08",
-    "id_facturaplus": "MBF002",
-    "name": "1.000 Fitxes grogues",
-    "price_without_taxes": "62,20€",
-    "price_with_taxes": "75,26€",
-    "amount": 1000
+    "id": 8,
+    "name": "Item 8",
+    "price": "$8",
+    "amount": 39
   },
   {
-    "id": "MB09",
-    "id_facturaplus": "MBB022",
-    "name": "1.500 Fitxes grogues",
-    "price_without_taxes": "92,11€",
-    "price_with_taxes": "111,45€",
-    "amount": 1500
+    "id": 9,
+    "name": "Item 9",
+    "price": "$9",
+    "amount": 78
   },
   {
-    "id": "MB10",
-    "id_facturaplus": "MBF003",
-    "name": "2.000 Fitxes grogues",
-    "price_without_taxes": "121,27€",
-    "price_with_taxes": "146,73€",
-    "amount": 2000
+    "id": 10,
+    "name": "Item 10",
+    "price": "$10",
+    "amount": 30
   },
   {
-    "id": "MB11",
-    "id_facturaplus": "MBF004",
-    "name": "3.000 Fitxes grogues",
-    "price_without_taxes": "177,77€",
-    "price_with_taxes": "215,10€",
-    "amount": 3000
+    "id": 11,
+    "name": "Item 11",
+    "price": "$11",
+    "amount": 32
   },
   {
-    "id": "MB12",
-    "id_facturaplus": "MBF005",
-    "name": "4.000 Fitxes grogues",
-    "price_without_taxes": "232,72€",
-    "price_with_taxes": "281,59€",
-    "amount": 4000
+    "id": 12,
+    "name": "Item 12",
+    "price": "$12",
+    "amount": 12
   },
   {
-    "id": "MB13",
-    "id_facturaplus": "MBF006",
-    "name": "500 Fitxes blaves",
-    "price_without_taxes": "33,42€",
-    "price_with_taxes": "40,45€",
-    "amount": 500
+    "id": 13,
+    "name": "Item 13",
+    "price": "$13",
+    "amount": 76
   },
   {
-    "id": "MB14",
-    "id_facturaplus": "MBF007",
-    "name": "1.000 Fitxes blaves",
-    "price_without_taxes": "62,20€",
-    "price_with_taxes": "75,26€",
-    "amount": 1000
+    "id": 14,
+    "name": "Item 14",
+    "price": "$14",
+    "amount": 10
   },
   {
-    "id": "MB15",
-    "id_facturaplus": "MBF008",
-    "name": "2.000 Fitxes blaves",
-    "price_without_taxes": "121,27€",
-    "price_with_taxes": "146,73€",
-    "amount": 2000
+    "id": 15,
+    "name": "Item 15",
+    "price": "$15",
+    "amount": 9
   },
   {
-    "id": "MB16",
-    "id_facturaplus": "MBF009",
-    "name": "3.000 Fitxes blaves",
-    "price_without_taxes": "177,77€",
-    "price_with_taxes": "215,10€",
-    "amount": 3000
+    "id": 16,
+    "name": "Item 16",
+    "price": "$16",
+    "amount": 8
   },
   {
-    "id": "MB17",
-    "id_facturaplus": "MBC001",
-    "name": "250 Carnets lectors",
-    "price_without_taxes": "15,72€",
-    "price_with_taxes": "19,02€",
-    "amount": 250
-  },
-  {
-    "id": "MB18",
-    "id_facturaplus": "MBC002",
-    "name": "500 Carnets lectors",
-    "price_without_taxes": "30,08€",
-    "price_with_taxes": "36,40€",
-    "amount": 500
-  },
-  {
-    "id": "MB19",
-    "id_facturaplus": "MBC003",
-    "name": "1.000 Carnets lectors",
-    "price_without_taxes": "57,45€",
-    "price_with_taxes": "69,51€",
-    "amount": 1000
-  },
-  {
-    "id": "MB20",
-    "id_facturaplus": "MBC004",
-    "name": "2.000 Carnets lectors",
-    "price_without_taxes": "112,42€",
-    "price_with_taxes": "136,03€",
-    "amount": 2000
-  },
-  {
-    "id": "MB21",
-    "id_facturaplus": "MBFO0001",
-    "name": "8.000 Fitxes blanques ordinador taladrades",
-    "price_without_taxes": "197,31€",
-    "price_with_taxes": "238,75€"
-  },
-  {
-    "id": "MB22",
-    "id_facturaplus": "MBFUNDES001",
-    "name": "Funda plàstic per carnets lector",
-    "price_without_taxes": "0,16€",
-    "price_with_taxes": "0,19€"
-  },
-  {
-    "id": "MB23",
-    "id_facturaplus": "MBFUNDES002",
-    "name": "Funda plàstic per fitxes grogues",
-    "price_without_taxes": "0,21€",
-    "price_with_taxes": "0,25€"
-  },
-  {
-    "id": "MB24",
-    "id_facturaplus": "MBLLRL0001",
-    "name": "Llibre registre de socis",
-    "price_without_taxes": "53,67€",
-    "price_with_taxes": "55,82€"
-  },
-  {
-    "id": "MB25",
-    "id_facturaplus": "MBLLRO0001",
-    "name": "Llibre registre obres",
-    "price_without_taxes": "53,67€",
-    "price_with_taxes": "55,82€"
-  },
-  {
-    "id": "MB26",
-    "id_facturaplus": "MBTEJ0001",
-    "name": "1.000 Teixells no adhesius",
-    "price_without_taxes": "10,69€",
-    "price_with_taxes": "12,93€",
-    "amount": 1000
-  },
-  {
-    "id": "MB27",
-    "id_facturaplus": "MBTEJ002",
-    "name": "1.500 Teixells no adhesius",
-    "price_without_taxes": "16,05€",
-    "price_with_taxes": "19,42€",
-    "amount": 1500
-  },
-  {
-    "id": "MB28",
-    "id_facturaplus": "GOMETS",
-    "name": "Paquet de gomets redons",
-    "price_without_taxes": "1,45€",
-    "price_with_taxes": "1,75€",
+    "id": 17,
+    "name": "Item 17",
+    "price": "$17",
     "amount": 1
   },
   {
-    "id": "MB29",
-    "id_facturaplus": "MBDAH",
-    "name": "Adhesius obra exclossa prèstec",
-    "price_without_taxes": "0,10€",
-    "price_with_taxes": "0,12€",
-    "amount": 1
+    "id": 18,
+    "name": "Item 18",
+    "price": "$18",
+    "amount": 99
   },
   {
-    "id": "MB30",
-    "id_facturaplus": "MBCELO001",
-    "name": "Rotllo celo transparent 66x38",
-    "price_without_taxes": "3,73€",
-    "price_with_taxes": "4,51€",
-    "amount": 1
+    "id": 19,
+    "name": "Item 19",
+    "price": "$19",
+    "amount": 100
   },
   {
-    "id": "MB31",
-    "id_facturaplus": "MBCELO002",
-    "name": "Rotllo celo transparent 66x38",
-    "price_without_taxes": "5,14€",
-    "price_with_taxes": "6,22€",
-    "amount": 1
-  },
-  {
-    "id": "MB32",
-    "id_facturaplus": "MBCELO003",
-    "name": "Rotllo celo transparent 66x38",
-    "price_without_taxes": "3,91€",
-    "price_with_taxes": "4,73€",
-    "amount": 1
-  },
-  {
-    "id": "MB33",
-    "id_facturaplus": "MBCELO004",
-    "name": "Rotllo celo transparent 66x38",
-    "price_without_taxes": "0,99€",
-    "price_with_taxes": "1,20€",
-    "amount": 1
+    "id": 20,
+    "name": "Item 20",
+    "price": "$20",
+    "amount": 109
   }
 ]

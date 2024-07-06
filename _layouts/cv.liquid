@@ -16,7 +16,9 @@ layout: default
           ></a>
         {% endif %}
       </h1>
-      {{ content }}
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
     </header>
 
     <article>
@@ -60,7 +62,9 @@ layout: default
           ></a>
         {% endif %}
       </h1>
-      {{ content }}
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
     </header>
 
     <article>
@@ -77,29 +81,29 @@ layout: default
             <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
             <div>
               {% case data[0] %}
-                {% when 'bàsics' %}
+                {% when 'basics' %}
                   {% include resume/basics.liquid %}
-                {% when 'educació' %}
+                {% when 'education' %}
                   {% include resume/education.liquid %}
-                {% when 'treball' %}
+                {% when 'work' %}
                   {% include resume/work.liquid %}
-                {% when 'activitat cívica' %}
+                {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
-                {% when 'projectes' %}
+                {% when 'projects' %}
                   {% include resume/projects.liquid %}
-                {% when 'reconeixements' %}
+                {% when 'awards' %}
                   {% include resume/awards.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
-                {% when 'obres' %}
+                {% when 'publications' %}
                   {% include resume/publications.liquid %}
                 {% when 'languages' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
                   {% include resume/interests.liquid %}
-                {% when 'certificacions' %}
+                {% when 'certificates' %}
                   {% include resume/certificates.liquid %}
-                {% when 'referències' %}
+                {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% else %}
 

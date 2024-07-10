@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    {% assign image_path = 'assets/img/book_covers/' | append: page.image %}
+    {%
+      include figure.liquid loading="eager" path=image_path
+      class="img-fluid w-50 rounded z-depth-1 mx-auto d-block"
+    %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    <div class="book-details">
+      <h3>
+        <a href="{{ site.baseurl }}/book/{{ page.title | slugify }}">{{ page.title }}</a>
+      </h3>
+      <p><strong>Autor:</strong> {{ page.author }}</p>
+      <p><strong>ISBN:</strong> {{ page.isbn }}</p>
+      <p><strong>PVP:</strong> {{ page.pvp }}</p>
+      <p><strong>Any:</strong> {{ page.year }}</p>
+      <hr>
+      <p>{{ page.description }}</p>
+    </div>
+  </div>
+</div>

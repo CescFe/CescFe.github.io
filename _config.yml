@@ -195,6 +195,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  books:
+    output: true
+    permalink: /book/:path/
   news:
     defaults:
       layout: post

@@ -17,7 +17,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_collections = site.collectionss | where: "category", category %}
+  {% assign categorized_collections = site.collections | where: "category", category %}
   {% assign sorted_collections = categorized_collections | sort: "importance" %}
   <!-- Generate cards for each collection -->
   {% if page.horizontal %}

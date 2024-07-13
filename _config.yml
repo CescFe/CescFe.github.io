@@ -198,6 +198,9 @@ collections:
   books:
     output: true
     permalink: /book/:path/
+  collections:
+    output: true
+    permalink: /collection/:path/
   news:
     defaults:
       layout: post

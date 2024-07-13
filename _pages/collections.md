@@ -6,7 +6,7 @@ description: un llistat amb les diferents col·leccions de Denes
 nav: true
 nav_order: 4
 display_categories: [infantil, adult, altres]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/collections.md -->

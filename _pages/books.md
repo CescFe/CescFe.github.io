@@ -5,19 +5,19 @@ permalink: /col-leccions/
 description: un llistat amb les diferents col·leccions de Denes
 nav: true
 nav_order: 4
-display_categories: 
+display_categories:
   [
-    diccionaris, 
-    edicions de la guerra (poesia), 
-    calabria, 
-    contes de tots, 
-    contes del cocodril, 
-    estudis, 
-    bàsica, 
+    diccionaris,
+    edicions de la guerra (poesia),
+    calabria,
+    contes de tots,
+    contes del cocodril,
+    estudis,
+    bàsica,
     contaralles de la meua terra,
-    Costumeta, 
-    investigació Francesc Ferrer Pastor, 
-    rent, 
+    Costumeta,
+    investigació Francesc Ferrer Pastor,
+    rent,
     altres
   ]
 horizontal: true

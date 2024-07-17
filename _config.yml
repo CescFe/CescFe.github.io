@@ -197,10 +197,7 @@ newsletter:
 collections:
   books:
     output: true
-    permalink: /book/:path/
-  collections:
-    output: true
-    permalink: /collection/:path/
+    permalink: /llibre/:path/
   news:
     defaults:
       layout: post

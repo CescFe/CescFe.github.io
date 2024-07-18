@@ -198,6 +198,9 @@ collections:
   books:
     output: true
     permalink: /llibre/:path/
+  collections:
+    output: true
+    permalink: /col-leccio/:path/
   news:
     defaults:
       layout: post

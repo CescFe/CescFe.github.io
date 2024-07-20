@@ -1,8 +1,8 @@
 <!-- _includes/books_display.liquid -->
 <div class="projects">
   <!-- Display books based on the passed category -->
-  {% assign categorized_books = site.books | where: "category", page.category_book %}
-  {% assign sorted_books = categorized_books | sort: "importance" %}
+  {% assign categorized_books = site.books | where: 'category', page.category_book %}
+  {% assign sorted_books = categorized_books | sort: 'importance' %}
   <!-- Generate cards for each book -->
   {% if page.horizontal %}
     <div class="container">

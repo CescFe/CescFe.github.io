@@ -1,17 +1,17 @@
 ---
 layout: page
-title: diccionaris
-description: els diccionaris i vocabularis de Francesc Ferrer Pastor
-img: assets/img/collection_preview/collection_dictionaries.png
+title: edicions de la guerra
+description: la col·lecció de poesia d'editorial Denes
+img: assets/img/collection_preview/collection_poesia.png
 importance: 1
-category: diccionaris
+category: adult
 related_publications: false
 ---
 
 <!-- pages/books.md -->
 <div class="projects">
-  <!-- Display "diccionari" books -->
-  {% assign categorized_books = site.books | where: "category", "diccionari" %}
+  <!-- Display "poesia" books -->
+  {% assign categorized_books = site.books | where: "category", "poesia" %}
   {% assign sorted_books = categorized_books | sort: "importance" %}
   <!-- Generate cards for each book -->
   {% if page.horizontal %}

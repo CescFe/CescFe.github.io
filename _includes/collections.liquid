@@ -1,0 +1,20 @@
+<div class="col">
+  <a href="{% if collection.redirect %}{{ collection.redirect }}{% else %}{{ collection.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      {% if collection.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=collection.img
+          sizes = "250px"
+          alt="collection thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ collection.title }}</h2>
+        <p class="card-text">{{ collection.description }}</p>
+      </div>
+    </div>
+  </a>
+</div>

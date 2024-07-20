@@ -5,27 +5,9 @@ description: els diccionaris i vocabularis de Francesc Ferrer Pastor
 img: assets/img/collection_preview/collection_dictionaries.png
 importance: 1
 category: diccionaris
+category_book: diccionari
 related_publications: false
 ---
 
-<!-- pages/books.md -->
-<div class="projects">
-  <!-- Display "diccionari" books -->
-  {% assign categorized_books = site.books | where: "category", "diccionari" %}
-  {% assign sorted_books = categorized_books | sort: "importance" %}
-  <!-- Generate cards for each book -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for book in sorted_books %}
-      {% include books_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for book in sorted_books %}
-      {% include books.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+<!-- Include the books display logic -->
+{% include books_display.liquid %}

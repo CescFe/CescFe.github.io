@@ -3,9 +3,8 @@ layout: default
 ---
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% assign image_path = 'assets/img/book_covers/' | append: page.image %}
     {%
-      include figure.liquid loading="eager" path=image_path
+      include figure.liquid loading="eager" path=page.img
       class="img-fluid w-50 rounded z-depth-1 mx-auto d-block"
     %}
   </div>

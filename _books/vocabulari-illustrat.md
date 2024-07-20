@@ -11,5 +11,4 @@ description_long: >
 importance: 1
 category: diccionari
 img: assets/img/book_covers/vocabulari.png
-image: vocabulari.png
 ---

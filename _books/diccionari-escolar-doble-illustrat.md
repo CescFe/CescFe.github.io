@@ -11,5 +11,4 @@ description_long: >
 importance: 2
 category: diccionari
 img: assets/img/book_covers/dicc_doble.png
-image: dicc_doble.png
 ---

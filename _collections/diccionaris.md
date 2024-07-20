@@ -7,6 +7,7 @@ importance: 1
 category: diccionaris
 category_book: diccionari
 related_publications: false
+horizontal: true
 ---
 
 <!-- Include the books display logic -->

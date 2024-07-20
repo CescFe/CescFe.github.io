@@ -11,5 +11,4 @@ description_long: >
 importance: 3
 category: diccionari
 img: assets/img/book_covers/dicc_senzill.png
-image: dicc_senzill.png
 ---

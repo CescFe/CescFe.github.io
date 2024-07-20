@@ -1,0 +1,22 @@
+<!-- _includes/books_display.liquid -->
+<div class="projects">
+  <!-- Display books based on the passed category -->
+  {% assign categorized_books = site.books | where: 'category', page.category_book %}
+  {% assign sorted_books = categorized_books | sort: 'importance' %}
+  <!-- Generate cards for each book -->
+  {% if page.horizontal %}
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2">
+        {% for book in sorted_books %}
+          {% include books_horizontal.liquid %}
+        {% endfor %}
+      </div>
+    </div>
+  {% else %}
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for book in sorted_books %}
+        {% include books.liquid %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>

@@ -2,8 +2,14 @@
 layout: page
 title: diccionaris
 description: els diccionaris i vocabularis de Francesc Ferrer Pastor
-img: assets/img/12.jpg
+img: assets/img/collection_preview/collection_dictionaries.png
 importance: 1
-category: work
-related_publications: true
+category: diccionaris
+category_book: diccionari
+related_publications: false
+horizontal: true
 ---
+
+<!-- Include the books display logic -->
+
+{% include books_display.liquid %}

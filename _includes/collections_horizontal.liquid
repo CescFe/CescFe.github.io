@@ -1,0 +1,19 @@
+<div class="col mb-4">
+  <a href="{% if collection.redirect %}{{ collection.redirect }}{% else %}{{ collection.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      <div class="row no-gutters">
+        {% if collection.img %}
+          <div class="col-md-6">
+            {% include figure.liquid loading="eager" path=collection.img sizes="(min-width: 768px) 156px, 50vw" alt="collection thumbnail" class="card-img" %}
+          </div>
+        {% endif %}
+        <div class="{% if collection.img %}col-md-6{% else %}col-md-12{% endif %}">
+          <div class="card-body">
+            <h3 class="card-title">{{ collection.title }}</h3>
+            <p class="card-text">{{ collection.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

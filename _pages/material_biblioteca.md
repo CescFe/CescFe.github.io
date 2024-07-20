@@ -1,10 +1,10 @@
 ---
 layout: page
-title: biblioteca
+title: material biblioteca
 permalink: /material-biblioteca/
 description: el material de biblioteca de Denes
 nav: true
-nav_order: 5
+nav_order: 4
 pretty_table: true
 ---
 

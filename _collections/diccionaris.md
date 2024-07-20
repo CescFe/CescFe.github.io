@@ -10,4 +10,5 @@ related_publications: false
 ---
 
 <!-- Include the books display logic -->
+
 {% include books_display.liquid %}

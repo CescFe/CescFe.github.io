@@ -13,6 +13,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Developed by <a href="https://github.com/CescFe" target="_blank">CescFe</a>.
+  <a href="https://github.com/CescFe/CescFe.github.io/releases/latest">Current release v0.5.0</a>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: cat # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icondenes.gif # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -316,7 +317,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["diccionaris", "novetats", "col·leccions", "material biblioteca"] # these tags will be displayed on the front page of your blog
+display_tags: ["diccionaris", "col·leccions", "material biblioteca"] # these tags will be displayed on the front page of your blog
 display_categories: ["distribuïdors"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

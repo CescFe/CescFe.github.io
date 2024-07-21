@@ -10,6 +10,4 @@ related_publications: false
 horizontal: true
 ---
 
-<!-- Include the books display logic -->
-
 {% include books_display.liquid %}

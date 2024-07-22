@@ -1,14 +1,14 @@
 [
-    {
-        "layout": "page",
-        "title": "Sample Title",
-        "description": "Sample Description",
-        "img": "sample_image.png",
-        "importance": 1,
-        "category": "sample_category",
-        "category_book": "sample_book",
-        "related_publications": false,
-        "horizontal": true,
-        "filename": "sample.md"
-    }
+  {
+    "layout": "page",
+    "title": "Sample Title",
+    "description": "Sample Description",
+    "img": "sample_image.png",
+    "importance": 1,
+    "category": "sample_category",
+    "category_book": "sample_book",
+    "related_publications": false,
+    "horizontal": true,
+    "filename": "sample.md"
+  }
 ]

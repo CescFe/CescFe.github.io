@@ -1,17 +1,26 @@
 import json
 import os
 
+
 class CollectionMarkdownGenerator:
     def __init__(self, json_path, output_dir):
         self.json_path = json_path
         self.output_dir = output_dir
 
     def load_collections(self):
-        with open(self.json_path, 'r') as file:
-            collections = json.load(file)
-        return collections
+        try:
+            with open(self.json_path, 'r') as file:
+                collections = json.load(file)
+            return collections
+        except FileNotFoundError:
+            print(f"Error: The file '{self.json_path}' was not found.")
+            exit(1)
+        except json.JSONDecodeError:
+            print(f"Error: The file '{self.json_path}' is not a valid JSON file.")
+            exit(1)
 
-    def create_markdown_content(self, collection):
+    @staticmethod
+    def create_markdown_content(collection):
         return f"""---
 layout: {collection['layout']}
 title: {collection['title']}
@@ -31,7 +40,8 @@ horizontal: {str(collection['horizontal']).lower()}
         if not os.path.exists(self.output_dir):
             os.makedirs(self.output_dir)
 
-    def write_markdown_file(self, filename, content):
+    @staticmethod
+    def write_markdown_file(filename, content):
         with open(filename, 'w') as md_file:
             md_file.write(content)
             print(f"Created {filename}")
@@ -39,7 +49,7 @@ horizontal: {str(collection['horizontal']).lower()}
     def generate_markdown_files(self):
         self.ensure_output_dir_exists()
         collections = self.load_collections()
-        
+
         for collection in collections:
             filename = os.path.join(self.output_dir, collection['filename'])
             if not os.path.exists(filename):
@@ -48,11 +58,21 @@ horizontal: {str(collection['horizontal']).lower()}
             else:
                 print(f"Skipped {filename} (already exists)")
 
+
 def main():
-    json_path = os.path.join('assets', 'json', 'collections.json')
-    output_dir = '_collections'
+    # Set the base path to the root of your project
+    base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+    # Use the base path to construct the absolute path for the JSON file
+    json_path = os.path.join(base_path, 'assets', 'json', 'collections.json')
+    output_dir = os.path.join(base_path, '_collections')
+
+    print(f"Using JSON file: {json_path}")
+    print(f"Output directory: {output_dir}")
+
     generator = CollectionMarkdownGenerator(json_path, output_dir)
     generator.generate_markdown_files()
+
 
 if __name__ == "__main__":
     main()

@@ -7,8 +7,7 @@ importance: 1
 category: adult
 category_book: poesia
 related_publications: false
+horizontal: true
 ---
-
-<!-- Include the books display logic -->
 
 {% include books_display.liquid %}

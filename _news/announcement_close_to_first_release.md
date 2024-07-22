@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quasi apunt per a la versió 1.0.0
+title: Quasi a punt per a la versió 1.0.0
 date: 2024-07-19 19:36:00+0000
 inline: false
 related_posts: false

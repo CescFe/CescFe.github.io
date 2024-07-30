@@ -2,10 +2,10 @@ import json
 import os
 
 
-def get_collections_json_path():
+def get_books_json_path():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     resources_dir = os.path.join(script_dir, 'resources')
-    return os.path.join(resources_dir, 'collections.json')
+    return os.path.join(resources_dir, 'books.json')
 
 
 def file_exists(file_path):
@@ -27,24 +27,26 @@ def load_json(file_path):
 required_fields = {
     "layout": str,
     "title": str,
+    "author": str,
+    "isbn": str,
+    "pvp": str,
+    "year": int,
     "description": str,
-    "img": str,
+    "description_long": str,
     "importance": int,
     "category": str,
-    "category_book": str,
-    "related_publications": bool,
-    "horizontal": bool,
+    "img": str,
     "filename": str
 }
 
 
 def validate_json_structure(data):
-    for collection in data:
+    for book in data:
         for field, field_type in required_fields.items():
-            if field not in collection:
-                return False, f"Field {field} is missing in collection {collection}"
-            if not isinstance(collection[field], field_type):
-                return False, f"Field {field} in collection {collection} should be of type {field_type.__name__}"
+            if field not in book:
+                return False, f"Field {field} is missing in book {book}"
+            if not isinstance(book[field], field_type):
+                return False, f"Field {field} in book {book} should be of type {field_type.__name__}"
     return True, "All checks passed"
 
 
@@ -53,16 +55,12 @@ def ensure_output_dir_exists(output_dir):
         os.makedirs(output_dir)
 
 
-def create_collection_md_content(collection):
+def create_book_md_content(book):
     content = ["---"]
-    for field, value in collection.items():
+    for field, value in book.items():
         if field != "filename":  # Exclude the filename field
-            if isinstance(value, bool):
-                value = str(value).lower()  # Convert boolean to lowercase string
             content.append(f"{field}: {value}")
     content.append("---")
-    content.append("")
-    content.append("{% include books_display.liquid %}")
     content.append("")  # Add an extra blank line at the end
     return "\n".join(content)
 
@@ -73,14 +71,14 @@ def write_markdown_file(filename, content):
         print(f"Created {filename}")
 
 
-def generate_collection_markdown_files(collections, output_dir):
+def generate_book_markdown_files(books, output_dir):
     ensure_output_dir_exists(output_dir)
     created_files = []
-    for collection in collections:
-        file_name = f"{collection['filename']}.md"
+    for book in books:
+        file_name = f"{book['filename']}.md"
         file_path = os.path.join(output_dir, file_name)
         if not os.path.exists(file_path):
-            content = create_collection_md_content(collection)
+            content = create_book_md_content(book)
             write_markdown_file(file_path, content)
             created_files.append(file_path)
         else:
@@ -89,14 +87,14 @@ def generate_collection_markdown_files(collections, output_dir):
 
 
 def main():
-    collections_json_path = get_collections_json_path()
-    collections_output_dir = os.path.join('..', '_collections')
+    books_json_path = get_books_json_path()
+    books_output_dir = os.path.join('..', '_books')
 
-    print(f"Using JSON file for collections: {collections_json_path}")
-    print(f"Output directory for collections: {collections_output_dir}")
+    print(f"Using JSON file for books: {books_json_path}")
+    print(f"Output directory for books: {books_output_dir}")
 
-    collections_data = load_json(collections_json_path)
-    generate_collection_markdown_files(collections_data, collections_output_dir)
+    books_data = load_json(books_json_path)
+    generate_book_markdown_files(books_data, books_output_dir)
 
 
 if __name__ == "__main__":

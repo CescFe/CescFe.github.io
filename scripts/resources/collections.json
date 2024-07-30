@@ -9,7 +9,7 @@
     "category_book": "poesia",
     "related_publications": false,
     "horizontal": true,
-    "filename": "poesia.md"
+    "filename": "poesia"
   },
   {
     "layout": "page",
@@ -21,7 +21,7 @@
     "category_book": "diccionari",
     "related_publications": false,
     "horizontal": true,
-    "filename": "diccionaris.md"
+    "filename": "diccionaris"
   },
   {
     "layout": "page",
@@ -33,6 +33,6 @@
     "category_book": "bàsica",
     "related_publications": false,
     "horizontal": true,
-    "filename": "basica.md"
+    "filename": "basica"
   }
 ]

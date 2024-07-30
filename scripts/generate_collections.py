@@ -2,76 +2,101 @@ import json
 import os
 
 
-class CollectionMarkdownGenerator:
-    def __init__(self, json_path, output_dir):
-        self.json_path = json_path
-        self.output_dir = output_dir
+def get_collections_json_path():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    resources_dir = os.path.join(script_dir, 'resources')
+    return os.path.join(resources_dir, 'collections.json')
 
-    def load_collections(self):
-        try:
-            with open(self.json_path, 'r') as file:
-                collections = json.load(file)
-            return collections
-        except FileNotFoundError:
-            print(f"Error: The file '{self.json_path}' was not found.")
-            exit(1)
-        except json.JSONDecodeError:
-            print(f"Error: The file '{self.json_path}' is not a valid JSON file.")
-            exit(1)
 
-    @staticmethod
-    def create_markdown_content(collection):
-        return f"""---
-layout: {collection['layout']}
-title: {collection['title']}
-description: {collection['description']}
-img: {collection['img']}
-importance: {collection['importance']}
-category: {collection['category']}
-category_book: {collection['category_book']}
-related_publications: {str(collection['related_publications']).lower()}
-horizontal: {str(collection['horizontal']).lower()}
----
+def file_exists(file_path):
+    return os.path.exists(file_path)
 
-{{% include books_display.liquid %}}
-"""
 
-    def ensure_output_dir_exists(self):
-        if not os.path.exists(self.output_dir):
-            os.makedirs(self.output_dir)
+def load_json(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print(f"Error: The file '{file_path}' was not found.")
+        exit(1)
+    except json.JSONDecodeError:
+        print(f"Error: The file '{file_path}' is not a valid JSON file.")
+        exit(1)
 
-    @staticmethod
-    def write_markdown_file(filename, content):
-        with open(filename, 'w') as md_file:
-            md_file.write(content)
-            print(f"Created {filename}")
 
-    def generate_markdown_files(self):
-        self.ensure_output_dir_exists()
-        collections = self.load_collections()
+required_fields = {
+    "layout": str,
+    "title": str,
+    "description": str,
+    "img": str,
+    "importance": int,
+    "category": str,
+    "category_book": str,
+    "related_publications": bool,
+    "horizontal": bool,
+    "filename": str
+}
 
-        for collection in collections:
-            filename = os.path.join(self.output_dir, collection['filename'])
-            if not os.path.exists(filename):
-                content = self.create_markdown_content(collection)
-                self.write_markdown_file(filename, content)
-            else:
-                print(f"Skipped {filename} (already exists)")
+
+def validate_json_structure(data):
+    for collection in data:
+        for field, field_type in required_fields.items():
+            if field not in collection:
+                return False, f"Field {field} is missing in collection {collection}"
+            if not isinstance(collection[field], field_type):
+                return False, f"Field {field} in collection {collection} should be of type {field_type.__name__}"
+    return True, "All checks passed"
+
+
+def ensure_output_dir_exists(output_dir):
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+
+def create_collection_md_content(collection):
+    content = ["---"]
+    for field, value in collection.items():
+        if field != "filename":  # Exclude the filename field
+            if isinstance(value, bool):
+                value = str(value).lower()  # Convert boolean to lowercase string
+            content.append(f"{field}: {value}")
+    content.append("---")
+    content.append("")
+    content.append("{% include books_display.liquid %}")
+    content.append("")  # Add an extra blank line at the end
+    return "\n".join(content)
+
+
+def write_markdown_file(filename, content):
+    with open(filename, 'w', encoding='utf-8') as md_file:
+        md_file.write(content)
+        print(f"Created {filename}")
+
+
+def generate_collection_markdown_files(collections, output_dir):
+    ensure_output_dir_exists(output_dir)
+    created_files = []
+    for collection in collections:
+        file_name = f"{collection['filename']}.md"
+        file_path = os.path.join(output_dir, file_name)
+        if not os.path.exists(file_path):
+            content = create_collection_md_content(collection)
+            write_markdown_file(file_path, content)
+            created_files.append(file_path)
+        else:
+            print(f"Skipped {file_path} (already exists)")
+    return created_files
 
 
 def main():
-    # Set the base path to the root of your project
-    base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    collections_json_path = get_collections_json_path()
+    collections_output_dir = os.path.join('..', '_collections')
 
-    # Use the base path to construct the absolute path for the JSON file
-    json_path = os.path.join(base_path, 'assets', 'json', 'collections.json')
-    output_dir = os.path.join(base_path, '_collections')
+    print(f"Using JSON file for collections: {collections_json_path}")
+    print(f"Output directory for collections: {collections_output_dir}")
 
-    print(f"Using JSON file: {json_path}")
-    print(f"Output directory: {output_dir}")
-
-    generator = CollectionMarkdownGenerator(json_path, output_dir)
-    generator.generate_markdown_files()
+    collections_data = load_json(collections_json_path)
+    generate_collection_markdown_files(collections_data, collections_output_dir)
 
 
 if __name__ == "__main__":

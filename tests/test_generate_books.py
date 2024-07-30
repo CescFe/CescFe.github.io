@@ -1,8 +1,7 @@
 import shutil
-
 import pytest
 import os
-from scripts.generate_books import file_exists, load_json, validate_json_structure, create_book_md
+from scripts.generate_books import file_exists, load_json, validate_json_structure, generate_book_markdown_files
 
 
 @pytest.fixture
@@ -16,7 +15,7 @@ def sample_books_json_path():
 @pytest.fixture
 def source_books_json_path():
     source_dir = os.path.dirname(os.path.abspath(__file__))
-    resources_dir = os.path.join(source_dir, '..', 'assets', 'json')
+    resources_dir = os.path.join(source_dir, '..', 'scripts', 'resources')
     source_json_path = os.path.join(resources_dir, 'books.json')
     return source_json_path
 
@@ -46,8 +45,8 @@ def test_create_books_md(source_books_json_path):
     output_dir = './_books'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    created_files = create_book_md(books, output_dir)
     try:
+        created_files = generate_book_markdown_files(books, output_dir)
         for file_path in created_files:
             assert os.path.exists(file_path), f"Markdown file {file_path} was not created."
     finally:

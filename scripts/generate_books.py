@@ -61,6 +61,7 @@ def create_book_md_content(book):
         if field != "filename":  # Exclude the filename field
             content.append(f"{field}: {value}")
     content.append("---")
+    content.append("")  # Add an extra blank line at the end
     return "\n".join(content)
 
 

@@ -1,3 +1,5 @@
+import shutil
+
 import pytest
 import os
 from scripts.generate_books import file_exists, load_json, validate_json_structure, create_book_md
@@ -45,11 +47,9 @@ def test_create_books_md(source_books_json_path):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     created_files = create_book_md(books, output_dir)
-    for file_path in created_files:
-        assert os.path.exists(file_path), f"Markdown file {file_path} was not created."
-    # Clean up the created file after the test
-    for file_path in created_files:
-        os.remove(file_path)
-    # Remove the directory if it's empty
-    if not os.listdir(output_dir):
-        os.rmdir(output_dir)
+    try:
+        for file_path in created_files:
+            assert os.path.exists(file_path), f"Markdown file {file_path} was not created."
+    finally:
+        # Clean up the created files after the test
+        shutil.rmtree(output_dir)

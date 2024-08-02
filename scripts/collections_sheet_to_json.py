@@ -9,11 +9,17 @@ from googleapiclient.errors import HttpError
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
-COLLECTIONS_DENES_SHEET_ID = "1q_ityTPJaBxxmANQawi4Kjamq5wIVoQkahLsp63rP7g"
-RANGE = "Sheet1"
+DENES_SPREADSHEET_ID = os.environ.get('DENES_SPREADSHEET_ID')
+RANGE = "collections"
+CLIENT_ID_DENES_SHEET = os.environ.get('CLIENT_ID_DENES_SHEET')
+CLIENT_SECRET_DENES_SHEET = os.environ.get('CLIENT_SECRET_DENES_SHEET')
 
 
 def main():
+    if not CLIENT_ID_DENES_SHEET or not CLIENT_SECRET_DENES_SHEET or not DENES_SPREADSHEET_ID:
+        raise ValueError(
+            "Missing CLIENT_ID_DENES_SHEET or CLIENT_SECRET_DENES_SHEET or DENES_SPREADSHEET_ID environment variables")
+
     credentials = None
     if os.path.exists("token.json"):
         credentials = Credentials.from_authorized_user_file("token.json", SCOPES)
@@ -21,7 +27,7 @@ def main():
         if credentials and credentials.expired and credentials.refresh_token:
             credentials.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file("credentials.json", SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file("utils/credentials.json", SCOPES)
             credentials = flow.run_local_server(port=0)
         with open("token.json", "w") as token:
             token.write(credentials.to_json())
@@ -30,7 +36,7 @@ def main():
         service = build("sheets", "v4", credentials=credentials)
         sheets = service.spreadsheets()
 
-        result = sheets.values().get(spreadsheetId=COLLECTIONS_DENES_SHEET_ID, range=RANGE).execute()
+        result = sheets.values().get(spreadsheetId=DENES_SPREADSHEET_ID, range=RANGE).execute()
 
         values = result.get("values", [])
 

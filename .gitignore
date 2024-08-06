@@ -11,6 +11,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
-scripts/utils/credentials.json
-scripts/token.json
+scripts/utils/token.json
 .env

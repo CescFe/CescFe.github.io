@@ -7,6 +7,8 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
+from utils.update_credentials import update_credentials
+
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 DENES_SPREADSHEET_ID = os.environ.get('DENES_SPREADSHEET_ID')
@@ -16,20 +18,23 @@ CLIENT_SECRET_DENES_SHEET = os.environ.get('CLIENT_SECRET_DENES_SHEET')
 
 
 def main():
-    if not CLIENT_ID_DENES_SHEET or not CLIENT_SECRET_DENES_SHEET or not DENES_SPREADSHEET_ID:
-        raise ValueError(
-            "Missing CLIENT_ID_DENES_SHEET or CLIENT_SECRET_DENES_SHEET or DENES_SPREADSHEET_ID environment variables")
+    # Update credentials.json with environment variables
+    update_credentials()
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    credentials_path = os.path.join(script_dir, 'utils', 'credentials.json')
+    token_path = os.path.join(script_dir, 'utils', 'token.json')
 
     credentials = None
-    if os.path.exists("token.json"):
-        credentials = Credentials.from_authorized_user_file("token.json", SCOPES)
+    if os.path.exists("utils/token.json"):
+        credentials = Credentials.from_authorized_user_file("utils/token.json", SCOPES)
     if not credentials or not credentials.valid:
         if credentials and credentials.expired and credentials.refresh_token:
             credentials.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file("utils/credentials.json", SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file(credentials_path, SCOPES)
             credentials = flow.run_local_server(port=0)
-        with open("token.json", "w") as token:
+        with open(token_path, "w") as token:
             token.write(credentials.to_json())
 
     try:

@@ -2,13 +2,10 @@ import os.path
 import json
 from dotenv import load_dotenv
 
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-from utils.credentials_sheet_handler import update_credentials, get_absolute_path
+from utils.credentials_sheet_handler import update_credentials, get_absolute_path, get_credentials
 
 load_dotenv()
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
@@ -19,21 +16,6 @@ CLIENT_SECRET_DENES_SHEET = os.environ.get('CLIENT_SECRET_DENES_SHEET')
 CREDENTIALS_FILENAME = "credentials.json"
 TOKEN_FILENAME = "token.json"
 OUTPUT_COLLECTIONS_FILE = "collections.json"
-
-
-def get_credentials(credentials_path, token_path):
-    credentials = None
-    if os.path.exists(get_absolute_path(TOKEN_FILENAME)):
-        credentials = Credentials.from_authorized_user_file(get_absolute_path(TOKEN_FILENAME), SCOPES)
-    if not credentials or not credentials.valid:
-        if credentials and credentials.expired and credentials.refresh_token:
-            credentials.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(credentials_path, SCOPES)
-            credentials = flow.run_local_server(port=0)
-        with open(token_path, "w") as token:
-            token.write(credentials.to_json())
-    return credentials
 
 
 def fetch_sheet_data(credentials, spreadsheet_id, fetch_range):
@@ -69,10 +51,8 @@ def write_to_file(data, filename):
 def main():
     credentials_path = get_absolute_path(CREDENTIALS_FILENAME)
     update_credentials(CLIENT_ID_DENES_SHEET, CLIENT_SECRET_DENES_SHEET, credentials_path)
+    credentials = get_credentials(credentials_path, get_absolute_path(TOKEN_FILENAME), SCOPES)
 
-    token_path = get_absolute_path(TOKEN_FILENAME)
-
-    credentials = get_credentials(credentials_path, token_path)
     values = fetch_sheet_data(credentials, DENES_SPREADSHEET_ID, FETCH_RANGE)
     data = transform_to_json(values)
     write_to_file(data, OUTPUT_COLLECTIONS_FILE)

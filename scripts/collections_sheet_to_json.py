@@ -2,10 +2,8 @@ import os.path
 import json
 from dotenv import load_dotenv
 
-from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
-
-from utils.credentials_sheet_handler import update_credentials, get_absolute_path, get_credentials
+from utils.credentials_sheet_handler import update_credentials, get_absolute_path
+from utils.google_libs_handler import get_credentials, fetch_sheet_data
 
 load_dotenv()
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
@@ -16,16 +14,6 @@ CLIENT_SECRET_DENES_SHEET = os.environ.get('CLIENT_SECRET_DENES_SHEET')
 CREDENTIALS_FILENAME = "credentials.json"
 TOKEN_FILENAME = "token.json"
 OUTPUT_COLLECTIONS_FILE = "collections.json"
-
-
-def fetch_sheet_data(credentials, spreadsheet_id, fetch_range):
-    try:
-        service = build("sheets", "v4", credentials=credentials)
-        sheets = service.spreadsheets()
-        result = sheets.values().get(spreadsheetId=spreadsheet_id, range=fetch_range).execute()
-        return result.get("values", [])
-    except HttpError as error:
-        print(error)
 
 
 def transform_to_json(values):

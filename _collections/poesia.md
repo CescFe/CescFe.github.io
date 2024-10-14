@@ -2,7 +2,7 @@
 layout: page
 title: edicions de la guerra
 description: la col·lecció de poesia d'editorial Denes
-img: assets/img/collection_preview/collection_poesia.png
+img: 
 importance: 1
 category: adult
 category_book: poesia

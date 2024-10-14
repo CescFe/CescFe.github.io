@@ -2,7 +2,7 @@
 layout: page
 title: bàsica
 description: col·lecció bàsica
-img: 
+img:
 importance: 2
 category: adult
 category_book: bàsica

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: pregar amb els fills i els néts
-description: religió i valors
+title: Pregar amb els fills i els néts
+description: Religió i valors
 img:
 importance: 4
 category: infantil

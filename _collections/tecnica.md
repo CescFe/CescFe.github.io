@@ -1,7 +1,7 @@
 ---
 layout: page
-title: tècnica
-description: gramàtiques i formació
+title: Tècnica
+description: Gramàtiques i formació
 img:
 importance: 8
 category: adult

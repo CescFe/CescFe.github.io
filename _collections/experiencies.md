@@ -1,7 +1,7 @@
 ---
 layout: page
-title: experiències
-description: suport professorat
+title: Experiències
+description: Suport professorat
 img:
 importance: 12
 category: adult

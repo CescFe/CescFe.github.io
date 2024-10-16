@@ -1,7 +1,7 @@
 ---
 layout: page
-title: coedicions
-description: temàtica diversa
+title: Coedicions
+description: Temàtica diversa
 img:
 importance: 9
 category: adult

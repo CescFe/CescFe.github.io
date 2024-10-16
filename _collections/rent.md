@@ -1,7 +1,7 @@
 ---
 layout: page
-title: rent
-description: literatura religiosa
+title: Rent
+description: Literatura religiosa
 img:
 importance: 10
 category: adult

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: teatre
-description: teatre
+title: Teatre
+description: Teatre
 img:
 importance: 11
 category: adult

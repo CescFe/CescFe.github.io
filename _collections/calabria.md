@@ -1,7 +1,7 @@
 ---
 layout: page
-title: calabria
-description: col·lecció calabria de literatura en castellà
+title: Calabria
+description: Col·lecció calabria de literatura en castellà
 img:
 importance: 3
 category: adult

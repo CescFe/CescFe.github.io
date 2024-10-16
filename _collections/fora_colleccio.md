@@ -1,7 +1,7 @@
 ---
 layout: page
-title: fora de col·lecció
-description: cultura i història
+title: Fora de col·lecció
+description: Cultura i història
 img:
 importance: 6
 category: adult

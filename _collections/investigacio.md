@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: investigació FFP
+description: col·lecció investigació FFP
 img:
-importance: 2
+importance: 5
 category: adult
-category_book: basica
+category_book: investigacio
 related_publications: false
 horizontal: true
 ---

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: rent
+description: literatura religiosa
 img:
-importance: 2
+importance: 10
 category: adult
-category_book: basica
+category_book: collaboracions
 related_publications: false
 horizontal: true
 ---

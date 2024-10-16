@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: altres
+description: altres matèries
 img:
-importance: 2
-category: adult
-category_book: basica
+importance: 1
+category: altres
+category_book: altres
 related_publications: false
 horizontal: true
 ---

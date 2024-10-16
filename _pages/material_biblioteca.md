@@ -11,7 +11,7 @@ pretty_table: true
 <table
   data-search="true"
   data-toggle="table"
-  data-url="{{ '/assets/json/table_data.json' | relative_url }}">
+  data-url="{{ '/assets/json/library_items_data.json' | relative_url }}">
   <thead>
     <tr>
       <th data-field="id">ID</th>

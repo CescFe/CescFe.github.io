@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: coedicions
+description: temàtica diversa
 img:
-importance: 2
+importance: 9
 category: adult
-category_book: basica
+category_book: coedicions
 related_publications: false
 horizontal: true
 ---

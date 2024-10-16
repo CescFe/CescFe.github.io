@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: tècnica
+description: gramàtiques i formació
 img:
-importance: 2
+importance: 8
 category: adult
-category_book: basica
+category_book: tecnica
 related_publications: false
 horizontal: true
 ---

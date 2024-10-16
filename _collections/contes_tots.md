@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: contes de tots
+description: infantil
 img:
-importance: 2
-category: adult
-category_book: basica
+importance: 1
+category: infantil
+category_book: contes_tots
 related_publications: false
 horizontal: true
 ---

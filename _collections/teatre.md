@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: teatre
+description: teatre
 img:
-importance: 2
+importance: 11
 category: adult
-category_book: basica
+category_book: teatre
 related_publications: false
 horizontal: true
 ---

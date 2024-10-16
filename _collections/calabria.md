@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: calabria
+description: col·lecció calabria de literatura en castellà
 img:
-importance: 2
+importance: 3
 category: adult
-category_book: basica
+category_book: calabria
 related_publications: false
 horizontal: true
 ---

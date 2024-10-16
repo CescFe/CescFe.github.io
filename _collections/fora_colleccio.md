@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: fora de col·lecció
+description: cultura i història
 img:
-importance: 2
+importance: 6
 category: adult
-category_book: basica
+category_book: fora_col
 related_publications: false
 horizontal: true
 ---

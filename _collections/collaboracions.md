@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: col·laboracions
+description: interés general
 img:
-importance: 2
+importance: 7
 category: adult
-category_book: basica
+category_book: collaboracions
 related_publications: false
 horizontal: true
 ---

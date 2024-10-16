@@ -1,11 +1,11 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: experiències
+description: suport professorat
 img:
-importance: 2
+importance: 12
 category: adult
-category_book: basica
+category_book: experiencies
 related_publications: false
 horizontal: true
 ---

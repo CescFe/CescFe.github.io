@@ -1,7 +1,7 @@
 ---
 layout: page
-title: altres
-description: altres matèries
+title: Altres
+description: Altres matèries
 img:
 importance: 1
 category: altres

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: les nostres tradicions
-description: infantil. tradicions al llarg de l'any (6 a 8 anys)
+title: Les nostres tradicions
+description: Infantil. tradicions al llarg de l'any (6 a 8 anys)
 img:
 importance: 3
 category: infantil

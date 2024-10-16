@@ -1,7 +1,7 @@
 ---
 layout: page
-title: col·laboracions
-description: interés general
+title: Col·laboracions
+description: Interés general
 img:
 importance: 7
 category: adult

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: contaralles de la meua terra
-description: infantil. tradició oral 6 a 8 anys
+title: Contaralles de la meua terra
+description: Infantil. Tradició oral 6 a 8 anys
 img:
 importance: 2
 category: infantil

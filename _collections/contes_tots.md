@@ -1,7 +1,7 @@
 ---
 layout: page
-title: contes de tots
-description: infantil
+title: Contes de tots
+description: Infantil
 img:
 importance: 1
 category: infantil

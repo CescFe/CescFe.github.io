@@ -1,7 +1,7 @@
 ---
 layout: page
-title: investigació FFP
-description: col·lecció investigació FFP
+title: Investigació FFP
+description: Col·lecció investigació FFP
 img:
 importance: 5
 category: adult

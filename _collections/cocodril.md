@@ -1,7 +1,7 @@
 ---
 layout: page
-title: llibres del cocodril
-description: animació a la lectura i valors
+title: Llibres del cocodril
+description: Animació a la lectura i valors
 img:
 importance: 1
 category: juvenil

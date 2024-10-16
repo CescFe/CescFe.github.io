@@ -1,7 +1,7 @@
 ---
 layout: page
-title: edicions de la guerra
-description: la col·lecció de poesia d'editorial Denes
+title: Edicions de la guerra
+description: La col·lecció de poesia d'editorial Denes
 img:
 importance: 1
 category: adult

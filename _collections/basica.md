@@ -1,7 +1,7 @@
 ---
 layout: page
-title: bàsica
-description: col·lecció bàsica
+title: Bàsica
+description: Col·lecció bàsica
 img:
 importance: 2
 category: adult

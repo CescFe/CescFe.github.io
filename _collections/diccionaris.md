@@ -1,8 +1,8 @@
 ---
 layout: page
-title: diccionaris
-description: els diccionaris i vocabularis de Francesc Ferrer Pastor
-img: assets/img/collection_preview/collection_dictionaries.png
+title: Diccionaris
+description: Els diccionaris i vocabularis de Francesc Ferrer Pastor
+img:
 importance: 1
 category: diccionaris
 category_book: diccionari

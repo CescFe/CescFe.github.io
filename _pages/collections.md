@@ -5,7 +5,7 @@ permalink: /col-leccions/
 description: un llistat amb les diferents col·leccions de Denes
 nav: true
 nav_order: 3
-display_categories: [infantil, adult, diccionaris, altres]
+display_categories: [infantil, juvenil, adult, diccionaris, altres]
 horizontal: false
 ---
 

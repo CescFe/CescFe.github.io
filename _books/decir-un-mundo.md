@@ -1,0 +1,17 @@
+---
+layout: book
+title: 122. Decir un mundo
+author: Alfonso Gómez
+isbn: 9788416473397
+pvp: 10.5
+year: 2018
+description: XV premio César Simón de poesia
+description_long: "para ella        con viajera lentitud". Alfonso Gómez.
+importance: 6
+category: poesia
+img: assets/img/collection_preview/collection_default.png
+---
+
+XV premio César Simón de poesia
+
+"para ella        con viajera lentitud". Alfonso Gómez.

@@ -11,7 +11,3 @@ importance: 2
 category: altres
 img: assets/img/collection_preview/collection_default.png
 ---
-
-Biogràfica i de difusió de la seua vida i treball.  Textos versificats.
-
-Divulgativa per a totes les edats i publics. Des d'un punt de vista didàctic i aprofitable en la tasca de recuperació de la memòria d'aquells temps on calia recuperar i posar en valor una llengua que estava prohibida.

@@ -6,8 +6,8 @@ title: Denes # the website title (if blank, full name will be used instead)
 first_name: Editorial
 middle_name:
 last_name: Denes
-email: denes@editorialdenes.com
-
+contact_note: >
+  Escriu-nos punxant les icones de d'alt i t'atendrem.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Editorial Denes
 footer_text: >
@@ -172,7 +172,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 

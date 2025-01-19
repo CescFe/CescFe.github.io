@@ -22,4 +22,4 @@ Debat amb motiu de la publicació del llibre <i>L'aportació de Ferrer Pastor a 
 
 > Aula Magna. Centre Cultural la Nau. C/ Universitat, 2 (València)
 > Dijous 23 de gener de 2025 a les 19.00 hores
-> Entrada lliure. Aforament limitat
+> Entrada lliure. Aforament limitat.

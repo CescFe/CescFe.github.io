@@ -2,7 +2,7 @@
 layout: book
 title: 2. Car all, car all, carall!!!
 author: Francesc Ferrer Pastor
-isbn: 84-88578-13-0
+isbn: 84-88578-13-X
 pvp: 4.50€
 year: 1993
 description: Il·lustracions Eugeni R. García Orts. Infantil

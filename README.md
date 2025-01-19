@@ -15,13 +15,9 @@ This is a modest project with the aim of providing Editorial Denes that allows t
 
 ## Sync with upstream
 
-`
-git fetch --no-tags upstream
-`
+`git fetch --no-tags upstream`
 
-`
-git merge upstream/main
-`
+`git merge upstream/main`
 
 ## License
 

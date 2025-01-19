@@ -20,6 +20,6 @@ Debat amb motiu de la publicació del llibre <i>L'aportació de Ferrer Pastor a 
     <li>Emili Casanova, Universitat de València</li>
 </ul>
 
-> Aula Magna
-Dijous 23 de gener de 2025 a les 19.00 hores
-Entrada lliure. Aforament limitat
+> Aula Magna. Centre Cultural la Nau. C/ Universitat, 2 (València)
+> Dijous 23 de gener de 2025 a les 19.00 hores
+> Entrada lliure. Aforament limitat

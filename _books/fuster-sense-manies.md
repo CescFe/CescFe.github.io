@@ -9,5 +9,5 @@ description: Les imatges que acompanyen aquest assaig corresponen a allò que el
 description_long: Doncs això, des de la llibertat d'expressió, les lletres d'aquest llibre van acompanyades de tant en tant de la música dels grafits, perquè a vegades ells també formen part del descrèdit de la realitat, de "Nosaltres els valencians" i de "criatures dolcíssimes".
 importance: 2
 category: basica
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/basica/fuster-sense-manies.png
 ---

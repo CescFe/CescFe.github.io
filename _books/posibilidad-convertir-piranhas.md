@@ -9,5 +9,5 @@ description: XVII premio César Simón de poesía
 description_long: De mi tierna infancia// en un suburbio al que prefiero llamar Baltimore// solo recuerdo// mi cuerpo enano rodando por las escaleras,// las interminables piernas de la maestra de la guardería// y a un compañero// al que clavé los dientes en el antebrazo.
 importance: 3
 category: poesia
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/poesia/posibilidad-convertir-piranhas.png
 ---

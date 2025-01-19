@@ -9,5 +9,5 @@ description: És una obra personal de l'autor valencià del lèxic més ric i am
 description_long: És la materialització de l'esforç d'una vida per recollir, fixar i vehicular socialment el lèxic viu que considerava imprescindible d'usar en la llengua literària i estàndard valencianes, de manera coherent amb el seu model lingüístic d'encuny valencià. Mostra el seu univers lèxic de més de 20.000 paraules.
 importance: 6
 category: diccionari
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/diccionaris/dicc-basic-enric-valor.png
 ---

@@ -9,5 +9,5 @@ description: Memorialístic.Com es va contribuir d'una manera important a que s'
 description_long: Manuel Sanchis-Guarner Cabanilles, fill de l'il·lustre filòleg, narra de primera mà el procés de debat al sí del Consell Valencià de Cultura que donà origen al dictamen de creació de l'Acadèmia Valenciana de la Llengua.
 importance: 1
 category: basica
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/basica/genesi-avl.png
 ---

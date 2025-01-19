@@ -9,5 +9,5 @@ description: Va formar-se musicalment per influència del seu pare, que era mús
 description_long: De ben jove estudia a la Societat Juvenialia de València i a la Societat Coral El Micalet per a posteriorment recòrrer falles i festes amb l'orquestra Torremar, on podia tocar la bateria, l'acordió o el contrabaix.
 importance: 5
 category: fora_col
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/fora_col/ferran-navarro-roig.png
 ---

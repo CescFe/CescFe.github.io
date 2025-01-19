@@ -9,5 +9,5 @@ description: En el marc d'una concepció d'estàndards autònoms en l'àmbit del
 description_long: De l'obra de Ferrer Pastor es valora, d'una manera indiscutible a hores d'ara, les seues aportacions a la lexicografia, i menys a altres parts de la lingüística, seguint a Abelard Saragossà i a altres, volem assenyanlar unes quantes aportacions de FFP a la posada en valor d'expressions valencianes vives i al model lingüístic valencià de la seua obra en la Gramàtica valenciana.
 importance: 2
 category: investigacio
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/investigacio/aportacions-ferrer-pastor-model-linguistic.png
 ---

@@ -9,5 +9,5 @@ description: En els anys 50 del segle passat, una vegada représ el cultiu liter
 description_long: En el present assaig, Emili Casanova analitza les aportacions a la llengua de l'obra de Ferrer Pastor en el Diccionari General de 1985 i absents en el Diccionari Fabra de 1986.
 importance: 1
 category: investigacio
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/investigacio/aportacio-ferrer-pastor-a-la-lexicografia.png
 ---

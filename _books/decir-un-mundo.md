@@ -9,5 +9,5 @@ description: XV premio César Simón de poesia
 description_long: <i>para ella... con viajera lentitud</i>. Alfonso Gómez.
 importance: 6
 category: poesia
-img: assets/img/collection_preview/collection_default.png
+img: assets/img/book_covers/poesia/decir-un-mundo.png
 ---

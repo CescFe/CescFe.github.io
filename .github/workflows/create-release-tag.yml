@@ -1,0 +1,21 @@
+name: Create Release Tag
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version"
+        required: true
+        default: "v0.1.0"
+
+jobs:
+  create-tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Create and push tag
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git tag origin-${{ github.event.inputs.version }}
+          git push origin origin-${{ github.event.inputs.version }}

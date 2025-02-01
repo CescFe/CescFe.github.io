@@ -2,25 +2,25 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Denes # the website title (if blank, full name will be used instead)
-first_name: Editorial
-middle_name:
-last_name: Denes
+title: blank # the website title (if blank, full name will be used instead)
+first_name: You
+middle_name: R.
+last_name: Name
 contact_note: >
-  Escriu-nos punxant les icones de d'alt i t'atendrem.
+  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Editorial Denes
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Developed by <a href="https://github.com/CescFe" target="_blank">CescFe</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: cat # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: icondenes.gif # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://CescFe.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+url: https://alshedivat.github.io # the base hostname & protocol for your site
+baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -42,7 +42,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -84,18 +84,11 @@ google_site_verification: # your google-site-verification ID (Google Search Cons
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
-# About
-# -----------------------------------------------------------------------------
-
-about_banner: about_banner.jpg
-about_logo: logo_denes_blue.gif
-
-# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Editorial Denes # blog_name will be displayed in your blog page
-blog_description: la màgia dels llibres
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -151,12 +144,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
-    permalink: /llibre/:path/
-  collections:
-    output: true
-    permalink: /col-leccio/:path/
   news:
     defaults:
       layout: post
@@ -165,16 +152,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -280,8 +257,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["diccionaris", "col·leccions", "material biblioteca"] # these tags will be displayed on the front page of your blog
-display_categories: ["distribuïdors"] # these categories will be displayed on the front page of your blog
+display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -295,7 +272,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: dictionaries.bib
+  bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -648,15 +625,15 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 
 jsonresume:
-  - bàsics
-  - treball
-  - educació
-  - obres
-  - projectes
-  - activitat cívica
-  - reconeixements
-  #- certificacions
-  #- skills
-  #- languages
-  #- interests
-  - referències
+  - basics
+  - work
+  - education
+  - publications
+  - projects
+  - volunteer
+  - awards
+  - certificates
+  - skills
+  - languages
+  - interests
+  - references

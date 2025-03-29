@@ -5,7 +5,7 @@ description: Literatura religiosa
 img:
 importance: 10
 category: adult
-category_book: collaboracions
+category_book: rent
 related_publications: false
 horizontal: true
 ---

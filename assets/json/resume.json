@@ -1,179 +1,137 @@
 {
-  "bàsics": {
-    "nom": "Francesc Jacint Ferrer Pastor",
-    "professió": "Lexicògraf, impressor, docent",
-    "image": "./assets/img/portrait_ferrer_pastor_2_color.jpg",
-    "naixement": "La Font d'en Carròs (la Safor), 13 de desembre de 1918",
-    "traspas": "València (l'Horta), 11 de juliol de 2000",
-    "url": "https://www.fundacioferrerpastor.org/",
-    "llegat": "Important lexicògraf dedicat a la difussió, normalització i ús del valencià. Ampliament reconegut pels seus Diccionaris de Valencià"
+  "basics": {
+    "name": "Albert Einstein",
+    "label": "Scientist",
+    "image": "",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
   },
-  "reconeixements": [
+  "work": [
     {
-      "title": "Medalla d'Or de la Universitat de València",
-      "date": "1998-12-21",
-      "awarder": "Universitat de València",
-      "url": "https://www.uv.es/uvweb/universitat/ca/universitat/actes-academics-institucionals/medalla-uv/medalla-uv-segle-xxi/data-lliurament/lliurament-medalla-uv-sr-francesc-ferrer-pastor-1286332027444/Medalla.html?id=1285878384945",
-      "summary": "'És autor de les obres lexicogràfiques valencianes més importants, com el Diccionari General i el Diccionari de la Rima;[...] i el més que conegut Vocabulari castellà - valencià i valencià - castellà. Francesc Ferrer Pastor forma part de l’important grup de persones que al llarg del segle XX han sigut indispensables per la recuperació i vertebració cultural, literària i lingüística del País Valencià.'"
-    },
-    {
-      "title": "Premi de les lletres de la Generalitat",
-      "date": "1994-10-04",
-      "awarder": "Generalitat Valenciana",
-      "url": "https://presidencia.gva.es/va/premis-9-doctubre/premis-de-les-lletres-de-la-generalitat",
-      "summary": "'El valencià, llengua propia i patrimoni comú de tots els ciutadans de la Comunitat Valenciana, és un instrument primordial per al dialeg i la cohesió del nostre poble, útil per a expressar qualsevol activitat humana, que ha sabut superar antigues persecucions i marginacions injustes. Cal fer constar que aquest fet ha sigut possible gracies a la recuperació de les nostres institucions d'autogovern i a les actuacions per elles promogudes; pero aixo hauria estat insuficient de no haver comptat amb l'estima deIs valencians per la seua llengua i amb el treball continu d'investigacions que han aconseguit que els seus estudis tingueren una cónsiderable transcendencia social.'"
-    },
-    {
-      "title": "Premi de l'Ajuntament de València a l'esforç editorial",
-      "date": "1957-01-01",
-      "awarder": "Ajuntament de València",
-      "url": "https://www.diarilaveu.cat/apunts/el-diccionari-de-la-rima-de-francesc-ferrer-pastor-314092/",
-      "summary": "'el Diccionari que ens ocupa és una de les tasques lexicogràfiques més importants que mai s’hagin dut a terme a València.', Germà Colon (1958)"
-    }
-  ],
-  "obres": [
-    {
-      "name": "Diccionari de la Rima",
-      "publisher": "Editorial Denes",
-      "releaseDate": "1956-05-01",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "Diccionari de terminacions, la búsqueda es realitza per síl·laba tònica."
-    },
-    {
-      "name": "Gramàtica Valenciana",
-      "publisher": "Editorial Denes",
-      "releaseDate": "1992-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "Obra lexicogràfica destinada a aprofundir en les normes gramaticals."
-    },
-    {
-      "name": "Lliçons d'Ortografia",
-      "publisher": "Editorial Denes",
-      "releaseDate": "1993-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "Obra lexicogràfica orientada a explicar píndoles ortogràfiques."
-    }
-  ],
-  "projectes": [
-    {
-      "name": "Diccionari de Refranys",
-      "summary": "Diccionari de refranys valencians recopilats per Ferrer Pastor",
-      "highlights": ["Diccionari", "Refranys"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ],
-  "treball": [
-    {
-      "name": "Cursos de Valencià, Rat Penat",
-      "position": "Professor de Valencià",
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
-      "startDate": "1949-01-01",
-      "endDate": "1963-01-01",
-      "summary": "Ensenyament de gramàtica i ortografia per a adults.",
-      "highlights": ["Gramàtica", "Ortografia"]
-    },
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
+    }
+  ],
+  "volunteer": [
     {
-      "name": "Formació Professional d'Arts Gràfiques, Ciudad del Aprendiz",
-      "position": "Professor de linotipia",
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
       "url": "https://example.com",
-      "startDate": "1949-01-01",
-      "endDate": "1963-01-01",
-      "summary": "Ensenyament de linotipia per a adolescents.",
-      "highlights": ["Arts Gràfiques", "Impremta", "Linotipia"]
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
-  "activitat cívica": [
+  "education": [
     {
-      "organization": "Falla Ballesteros-Poeta Querol",
-      "location": "València",
-      "position": "Secretari",
-      "url": "https://example.com",
-      "startDate": "1942-04-01",
-      "endDate": "1950-07-01",
-      "summary": "Participació del món faller, involucrant-se en temes lingüístics: corregir llibres i llegendes, redacció d'escrits i discursos, participació en concursos de poesia i teatre.",
-      "highlights": ["Falles"]
+      "institution": "University of Zurich, Zurich, Switzerland",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.uzh.ch/",
+      "area": "Software Development",
+      "studyType": "PhD",
+      "startDate": "1905-01-01",
+      "endDate": "1905-01-01",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
     }
   ],
-  "educació": [
+  "awards": [
     {
-      "institution": "Hospici de sant Joan Baptista",
-      "location": "València",
-      "url": "https://www.fsanjuanbautista.org/",
-      "area": "Educació Elemental",
-      "studyType": "Elemental",
-      "startDate": "1922-01-01",
-      "endDate": "1927-01-01",
-      "score": "Excel·lent",
-      "courses": ["Educació Elemental"]
-    },
-    {
-      "institution": "Escola Professional d'Arts i Oficis de sant Carles",
-      "location": "València",
-      "url": "https://realacademiasancarlos.com/",
-      "area": "Educació Secundària",
-      "studyType": "Secundària",
-      "startDate": "1927-01-01",
-      "endDate": "1928-01-01",
-      "score": "Excel·lent",
-      "courses": ["Educació Secundària"]
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificacions": [
+  "certificates": [
     {
-      "name": "Professor Valencià",
+      "name": "Machine Learning",
       "date": "2018-01-01",
-      "issuer": "Rat Penat",
+      "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Prof. Formació Professional",
+      "name": "Quantum Computing",
       "date": "2018-01-01",
-      "issuer": "Ciudad del Aprendiz",
+      "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Corrector Junta Qualificadora",
+      "name": "Quantum Information",
       "date": "2018-01-01",
-      "issuer": "Generalitat Valenciana",
+      "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Professor Valencià",
+      "name": "Quantum Cryptography",
       "date": "2018-01-01",
-      "issuer": "Rat Penat",
+      "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Prof. Formació Professional",
+      "name": "Quantum Communication",
       "date": "2018-01-01",
-      "issuer": "Ciudad del Aprendiz",
+      "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Corrector Junta Qualificadora",
+      "name": "Quantum Teleportation",
       "date": "2018-01-01",
-      "issuer": "Generalitat Valenciana",
+      "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "referències": [
+  "publications": [
     {
-      "name": "Maria Àngels Alcolea i Campos",
-      "icon": "fa-solid fa-laptop",
-      "reference": "https://memoriavalencianista.cat/biografies/ferrer-pastor-francesc"
+      "name": "Zur Elektrody/namik bewegter Körper",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1905-06-30",
+      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
     },
     {
-      "name": "Diari la veu",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "https://www.diarilaveu.cat/apunts/el-diccionari-de-la-rima-de-francesc-ferrer-pastor-314092/"
+      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1905-03-18",
+      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+    },
+    {
+      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "publisher": "Annalen der Physik",
+      "releaseDate": "1916-03-20",
+      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
+      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
@@ -215,6 +173,28 @@
         "Quantum Communication",
         "Quantum Teleportation"
       ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
     }
   ]
 }

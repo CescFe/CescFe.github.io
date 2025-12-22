@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-## Instruccions 
+## Instruccions
 
 A continuació vos expliquem com utilitzar les fitxes per a endevinar el dia de naixement i el mes.
 Tens sis targetes màgiques que comencen pels nombres **1, 2, 4, 8, 16, 32** (la suma total són **63**).
@@ -18,6 +18,7 @@ Quan t'indiquen en quines targetes apareix el dia de naixement, mira la primera 
 ### Exemples
 
 **Exemple 1:**
+
 - Si està en la 1ª, 3ª i 4ª targeta, serà:
   - Targeta 1ª = **1**
   - Targeta 3ª = **4**
@@ -25,6 +26,7 @@ Quan t'indiquen en quines targetes apareix el dia de naixement, mira la primera 
   - Per tant: **1 + 4 + 8 = 13**
 
 **Exemple 2:**
+
 - Si només està en la 2ª targeta, serà:
   - Targeta 2ª = **2**
   - Per tant: **2**

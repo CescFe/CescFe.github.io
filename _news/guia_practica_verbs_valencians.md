@@ -29,7 +29,7 @@ Autor: Francesc J. Hernàndez
 Temps simples del verb <i>haver</i> per als temps compostos
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ 'assets/img/news/guia_verbs/01_flexio_haver.png' | relative_url }}" alt="Flexio_Haver" class="rounded z-depth-1">
+    <img src="/assets/img/news/guia_verbs/01_flexio_haver.png" alt="Flexio_Haver" class="rounded z-depth-1">
     <br>
 </div>
 
@@ -40,7 +40,7 @@ Temps simples del verb <i>haver</i> per als temps compostos
 Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ 'assets/img/news/guia_verbs/02_flexio_anar.png' | relative_url }}" alt="Flexio_Anar" class="rounded z-depth-1">
+    <img src="/assets/img/news/guia_verbs/02_flexio_anar.png" alt="Flexio_Anar" class="rounded z-depth-1">
     <br>
 </div>
 
@@ -57,6 +57,6 @@ Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
 Temps simples
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ 'assets/img/news/guia_verbs/03_flexio_cantar.png' | relative_url }}" alt="Flexio_Cantar" class="rounded z-depth-1">
+    <img src="/assets/img/news/guia_verbs/03_flexio_cantar.png" alt="Flexio_Cantar" class="rounded z-depth-1">
     <br>
 </div>

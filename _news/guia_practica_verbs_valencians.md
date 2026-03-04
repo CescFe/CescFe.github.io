@@ -6,29 +6,57 @@ inline: false
 related_posts: false
 ---
 
-# GUIA PRÀCTICA DE VERBS VALENCIANS
-
 Autor: Francesc J. Hernàndez
+
+<br>
 
 ## Índex
 
-- [Haver](#haver)
-- [Anar](#anar)
+- [Verbs auxiliars de tots els verbs](#verbs-auxiliars-de-tots-els-verbs)
+  - [Haver](#haver)
+  - [Anar](#anar)
+- [Model de la 1ª conjugació. Verbs acabats en <i>-ar</i>](#model-de-la-1ª-conjugació-verbs-acabats-en-i-ari)
+  - [Cantar](#cantar)
 
-## VERBS AUXILIARS DE TOTS ELS VERBS
+<br>
 
-### Haver
+# Verbs auxiliars de tots els verbs
 
-> Temps simples del verb <i>haver</i> per als temps compostos
+<br>
 
-<div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/news/guia_verbs/01_flexio_haver.png" class="img-fluid rounded z-depth-1" %}
-</div>
+## Haver
 
-### Anar
-
-> Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
+Temps simples del verb <i>haver</i> per als temps compostos
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="{{ 'assets/img/news/guia_verbs/02_flexio_anar.png' | relative_url }}" alt="Flexio_Anar" class="rounded z-depth-1">
+    <img src="/assets/img/news/guia_verbs/01_flexio_haver.png" alt="Flexio_Haver" class="rounded z-depth-1">
+    <br>
+</div>
+
+<br>
+
+## Anar
+
+Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
+
+<div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/news/guia_verbs/02_flexio_anar.png" alt="Flexio_Anar" class="rounded z-depth-1">
+    <br>
+</div>
+
+---
+
+<a id="model-de-la-1ª-conjugació-verbs-acabats-en-i-ari"></a>
+
+# Model de la 1ª conjugació. Verbs acabats en <i>-ar</i>
+
+<br>
+
+## Cantar
+
+Temps simples
+
+<div class="col-sm mt-3 mt-md-0 text-center">
+    <img src="/assets/img/news/guia_verbs/03_flexio_cantar.png" alt="Flexio_Cantar" class="rounded z-depth-1">
+    <br>
 </div>

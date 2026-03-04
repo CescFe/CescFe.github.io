@@ -7,7 +7,7 @@ pvp: 10.50€
 year: 2020
 description: XVI premio César Simón de poesia
 description_long: <i>quiero hacer libro como el gusano sueña con ser mariposa devorando palabras, hojas</i>. Vera Moreno.
-importance: 5
+importance: 6
 category: poesia
 img: assets/img/book_covers/poesia/gimnasio-rotos.png
 ---

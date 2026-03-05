@@ -50,6 +50,14 @@ layout: about
 
 {{ content }}
 
+<h2>
+  <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Posts</a>
+</h2>
+{% include latest_posts.liquid %}
+
+<h2>
+  <a href="{{ '/news/' | relative_url }}" style="color: inherit">Notícies</a>
+</h2>
 {% include news.liquid %}
 
 <br>

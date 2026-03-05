@@ -8,7 +8,7 @@ assignees: FrancescFe
 
 ### Description
 
-Provide a briefdescription of the issue (what and why).
+Provide a brief description of the issue (what and why).
 
 ### Technical Information
 

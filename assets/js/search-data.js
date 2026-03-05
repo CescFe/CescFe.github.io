@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/francesc-ferrer-pastor/";
           },
-        },{id: "post-guia-pràctica-de-verbs-valencians",
+        },{id: "post-homenatge-a-francesc-ferrer-pastor",
+        
+          title: "Homenatge a Francesc Ferrer Pastor",
+        
+        description: "Francesc Ferrer Pastor&#39;:&#39; una vida dedicada al seu poble i a la seua llengua.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/homenatge-ferrer-pastor/";
+          
+        },
+      },{id: "post-guia-pràctica-de-verbs-valencians",
         
           title: "Guia Pràctica de Verbs Valencians",
         

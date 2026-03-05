@@ -13,11 +13,28 @@
 
 This is a modest project with the aim of providing Editorial Denes that allows them to achieve an online presence. The development is iterative: firstly a minimal functionality website has been launched, but the plan is to improve and expanded it gradually.
 
+## Apply Prettier formatter
+Apply prettier formatter to all files:
+```
+npx prettier . --write
+```
+Apply prettier formatter to a specific file:
+```
+npx prettier _news/guia_practica_verbs_valencians.md --write
+```
+
+Check if files are compliant with prettier:
+```
+npx prettier . --check
+```
+
+## Run the website locally
+1. `docker compose pull`
+2. `docker compose up`
+
 ## Sync with upstream
-
-`git fetch --no-tags upstream`
-
-`git merge upstream/main`
+1. `git fetch --no-tags upstream`
+2. `git merge upstream/main`
 
 ## License
 

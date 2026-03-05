@@ -5,6 +5,7 @@ date: 2025-08-24 14:00:00
 description: activitat de matemàtiques i màgia per a totes les edats
 tags: activitat
 categories: posts
+related_posts: false
 ---
 
 ## Instruccions

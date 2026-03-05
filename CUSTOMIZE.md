@@ -68,7 +68,7 @@ Note that `posts` is also a collection, but it is a default collection created a
 
 ## Creating new projects
 
-You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
+You can create new projects by adding new Markdown files in the projects directory. The easiest way to do this is to copy an existing project and modify it.
 
 ## Adding some news
 

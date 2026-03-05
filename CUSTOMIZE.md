@@ -68,7 +68,7 @@ Note that `posts` is also a collection, but it is a default collection created a
 
 ## Creating new projects
 
-You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
+You can create new projects by adding new Markdown files in the projects directory. The easiest way to do this is to copy an existing project and modify it.
 
 ## Adding some news
 
@@ -208,7 +208,7 @@ To remove the news section, you can:
 
 To remove the projects, you can:
 
-- delete the [\_projects](_projects/) directory
+- delete the projects directory
 - delete the projects page [\_pages/projects.md](_pages/projects.md)
 - remove reference to projects page in our [\_pages/dropdown.md](_pages/dropdown.md)
 - remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file

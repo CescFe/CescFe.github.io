@@ -190,9 +190,11 @@ b) Present d'indicatiu del verb <b><i>anar</i></b> per als temps compostos perif
 </div>
 
 Remarques:
+
 ```
 verb = arrel o lexema + terminació o desinència (-ar, -er, -ir, -ur, -re)
 ```
+
 ---
 
 <a id="model-de-la-1ª-conjugació-verbs-acabats-en-i-ari"></a>

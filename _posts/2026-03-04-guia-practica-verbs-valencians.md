@@ -10,9 +10,8 @@ toc:
   beginning: true
 ---
 
-Autor: Francesc J. Hernàndez
-
-<br>
+{% assign post_image_class = "img-fluid rounded z-depth-1 mx-auto d-block" %}
+{% assign post_image_max_width_default = "780px" %}
 
 # Verbs auxiliars de tots els verbs
 
@@ -23,7 +22,7 @@ Autor: Francesc J. Hernàndez
 Temps simples del verb <i>haver</i> per als temps compostos
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="/assets/img/posts/guia_verbs/01_flexio_haver.png" alt="Flexio_Haver" class="rounded z-depth-1">
+    {% include figure.liquid loading="eager" path="assets/img/posts/guia_verbs/01_flexio_haver.png" alt="Flexio_Haver" class=post_image_class max-width=post_image_max_width_default %}
     <br>
 </div>
 
@@ -34,7 +33,24 @@ Temps simples del verb <i>haver</i> per als temps compostos
 Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="/assets/img/posts/guia_verbs/02_flexio_anar.png" alt="Flexio_Anar" class="rounded z-depth-1">
+    <table class="table table-sm table-bordered mx-auto" style="width: 260px; table-layout: fixed;">
+        <thead>
+            <tr>
+                <th style="text-align: left; padding-left: 12px;">INDICATIU</th>
+            </tr>
+            <tr>
+                <th style="text-align: left; font-weight: 400; padding-left: 12px;">PRESENT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td style="text-align: left; padding-left: 12px;">vaig</td></tr>
+            <tr><td style="text-align: left; padding-left: 12px;">va-s</td></tr>
+            <tr><td style="text-align: left; padding-left: 12px;">va</td></tr>
+            <tr><td style="text-align: left; padding-left: 12px;">vam</td></tr>
+            <tr><td style="text-align: left; padding-left: 12px;">vau</td></tr>
+            <tr><td style="text-align: left; padding-left: 12px;">van</td></tr>
+        </tbody>
+    </table>
     <br>
 </div>
 
@@ -51,6 +67,6 @@ Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
 Temps simples
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <img src="/assets/img/posts/guia_verbs/03_flexio_cantar.png" alt="Flexio_Cantar" class="rounded z-depth-1">
+    {% include figure.liquid loading="eager" path="assets/img/posts/guia_verbs/03_flexio_cantar.png" alt="Flexio_Cantar" class=post_image_class max-width=post_image_max_width_default %}
     <br>
 </div>

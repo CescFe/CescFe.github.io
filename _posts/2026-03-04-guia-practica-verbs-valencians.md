@@ -22,7 +22,132 @@ toc:
 Temps simples del verb <i>haver</i> per als temps compostos
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/posts/guia_verbs/01_flexio_haver.png" alt="Flexio_Haver" class=post_image_class max-width=post_image_max_width_default %}
+    <table class="table table-sm table-bordered mx-auto" style="max-width: 780px; width: 100%; table-layout: fixed;">
+        <thead>
+            <tr>
+                <th style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">INDICATIU</th>
+                <th style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">INFINITIU</th>
+                <th style="text-align: left; padding-left: 12px; background-color: #eceb95;">SUBJUNTIU</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">PRESENT</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">haver</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">PRESENT</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">he</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7; font-weight: 700;">GERUNDI</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">haj-a</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">has</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">havent</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hag-es</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">ha</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">haj-a</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hem</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7; font-weight: 700;">PARTICIPI</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hàg-em</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">heu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">hagut, haguda</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hàg-eu</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">han</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">haguts, hagudes</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hag-en</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">PASSAT IMPERFET</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">PASSAT SIMPLE</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">PASSAT IMPERFET</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hav-i-a</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hagu-í</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hagu-e-ra / hagu-és</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hav-i-es</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hagu-e-res</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hagu-e-res / hagu-ess-es</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hav-i-a</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hagu-é</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hagu-e-ra / hagu-és</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hav-í-em</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hagu-é-rem</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hagu-é-rem / hagu-éss-em</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hav-í-eu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hagu-é-reu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hagu-é-reu / hagu-éss-eu</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hav-i-en</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">hagu-e-ren</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">hagu-e-ren / hagu-ess-en</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">Futur</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">PASSAT SIMPLE</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7; font-weight: 700;">IMPERATIU</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-é</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-ia</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-às</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-ies</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">hag-es</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-à</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-ia</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">haj-a</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-em</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-íem</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">hàg-em</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-eu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-íeu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">hàg-eu</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-an</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">haur-r-ien</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">hag-en</td>
+            </tr>
+        </tbody>
+    </table>
     <br>
 </div>
 

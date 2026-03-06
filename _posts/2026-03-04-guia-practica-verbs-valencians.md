@@ -27,6 +27,11 @@ Temps simples del verb <i>haver</i> per als temps compostos
   table.verbs-fixed-colors td {
     color: #000 !important;
   }
+
+  table.verbs-green-bg th,
+  table.verbs-green-bg td {
+    background-color: #b8e7b9 !important;
+  }
 </style>
 
 <div class="col-sm mt-3 mt-md-0 text-center">
@@ -166,7 +171,7 @@ Temps simples del verb <i>haver</i> per als temps compostos
 Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    <table class="table table-sm table-bordered mx-auto verbs-fixed-colors" style="width: 260px; table-layout: fixed; --bs-table-color: #000;">
+    <table class="table table-sm table-bordered mx-auto verbs-fixed-colors verbs-green-bg" style="width: 260px; table-layout: fixed; --bs-table-color: #000;">
         <thead>
             <tr>
                 <th style="text-align: left; padding-left: 12px;">INDICATIU</th>

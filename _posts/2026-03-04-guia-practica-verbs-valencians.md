@@ -16,7 +16,7 @@ toc:
 
 ## Haver
 
-Temps simples del verb <i>haver</i> per als temps compostos
+a) Temps simples del verb <b><i>haver</i></b> per als temps compostos
 
 <style>
   table.verbs-fixed-colors,
@@ -165,7 +165,7 @@ Temps simples del verb <i>haver</i> per als temps compostos
 
 ## Anar
 
-Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
+b) Present d'indicatiu del verb <b><i>anar</i></b> per als temps compostos perifràstics
 
 <div class="col-sm mt-3 mt-md-0 text-center">
     <table class="table table-sm table-bordered mx-auto verbs-fixed-colors verbs-green-bg" style="width: 260px; table-layout: fixed; --bs-table-color: #000;">
@@ -189,6 +189,10 @@ Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
     <br>
 </div>
 
+Remarques:
+```
+verb = arrel o lexema + terminació o desinència (-ar, -er, -ir, -ur, -re)
+```
 ---
 
 <a id="model-de-la-1ª-conjugació-verbs-acabats-en-i-ari"></a>
@@ -259,7 +263,7 @@ Temps simples
             <tr>
                 <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-a</td>
                 <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-í</td>
-                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-a-ra / cant-és<d-footnote>També: cant-às, cant-ass-es, cant-às, cant-àss-em, cant-àss-eu, cant-ass-en.</d-footnote></td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-a-ra / cant-és<sup><a id="fnref-cantar-1" href="#fn-cantar-1" style="color: #000; text-decoration: none;">1</a></sup></td>
             </tr>
             <tr>
                 <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-es</td>
@@ -328,5 +332,9 @@ Temps simples
             </tr>
         </tbody>
     </table>
+    <p id="fn-cantar-1" style="text-align: left; font-size: 0.9rem; margin-top: 8px; margin-bottom: 0;">
+      <sup>1</sup> També: cant-às, cant-ass-es, cant-às, cant-àss-em, cant-àss-eu, cant-ass-en.
+      <a href="#fnref-cantar-1" aria-label="Tornar a la referència" style="text-decoration: none;">↩</a>
+    </p>
     <br>
 </div>

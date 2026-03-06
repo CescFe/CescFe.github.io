@@ -10,9 +10,6 @@ toc:
   beginning: true
 ---
 
-{% assign post_image_class = "img-fluid rounded z-depth-1 mx-auto d-block" %}
-{% assign post_image_max_width_default = "780px" %}
-
 # Verbs auxiliars de tots els verbs
 
 <br>
@@ -205,6 +202,131 @@ Present d'indicatiu del verb <i>anar</i> per als temps compostos perifràstics
 Temps simples
 
 <div class="col-sm mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/posts/guia_verbs/03_flexio_cantar.png" alt="Flexio_Cantar" class=post_image_class max-width=post_image_max_width_default %}
+    <table class="table table-sm table-bordered mx-auto verbs-fixed-colors" style="max-width: 780px; width: 100%; table-layout: fixed; --bs-table-color: #000;">
+        <thead>
+            <tr>
+                <th style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">INDICATIU</th>
+                <th style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">INFINITIU</th>
+                <th style="text-align: left; padding-left: 12px; background-color: #eceb95;">SUBJUNTIU</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">PRESENT</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-ar</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">PRESENT</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-e / cant-o</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7; font-weight: 700;">GERUNDI</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-e</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-es</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-ant</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-es</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-a</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-e</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-em</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7; font-weight: 700;">PARTICIPI</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-em</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-eu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-at, cant-ada</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-eu</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-en</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-ats, cant-ades</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-en</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">PASSAT IMPERFET</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">PASSAT SIMPLE</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">PASSAT IMPERFET</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-a</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-í</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-a-ra / cant-és<d-footnote>També: cant-às, cant-ass-es, cant-às, cant-àss-em, cant-àss-eu, cant-ass-en.</d-footnote></td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-es</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-a-res</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-a-res / cant-ess-es</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-a</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-à</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-a-ra / cant-és</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-em</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-à-rem</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-à-rem / cant-éss-em</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-eu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-à-reu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-à-reu / cant-éss-eu</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-av-en</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-a-ren</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #eceb95;">cant-a-ren / cant-ess-en</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">Futur</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">CONDICIONAL</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7; font-weight: 700;">IMPERATIU</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-é</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-ia</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-às</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-ies</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-a</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-à</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-ia</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-e</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-em</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-íem</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-em</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-eu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-íeu</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-eu</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-an</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #b8e7b9;">cant-ar-ien</td>
+                <td style="text-align: left; padding-left: 12px; background-color: #e7e7e7;">cant-en</td>
+            </tr>
+        </tbody>
+    </table>
     <br>
 </div>

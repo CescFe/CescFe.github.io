@@ -6,19 +6,7 @@ description: Guia pràctica de verbs valencians, amb flexions i conjugacions.
 tags: guia
 categories: posts
 related_posts: false
-toc:
-  beginning: true
----
-
-# Verbs auxiliars de tots els verbs
-
-<br>
-
-## Haver
-
-### Temps simples del verb <b><i>haver</i></b> per als temps compostos
-
-<style>
+_styles: |
   table.verbs-fixed-colors,
   table.verbs-fixed-colors th,
   table.verbs-fixed-colors td {
@@ -41,7 +29,17 @@ toc:
   table.verbs-gray-white tbody tr:nth-child(even) td {
     background-color: #ffffff !important;
   }
-</style>
+toc:
+  beginning: true
+---
+
+# Verbs auxiliars de tots els verbs
+
+<br>
+
+## Haver
+
+### Temps simples del verb <b><i>haver</i></b> per als temps compostos
 
 <div class="col-sm mt-3 mt-md-0 text-center">
     <table class="table table-sm table-bordered mx-auto verbs-fixed-colors" style="max-width: 780px; width: 100%; table-layout: fixed; --bs-table-color: #000;">

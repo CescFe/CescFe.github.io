@@ -203,9 +203,7 @@ toc:
 
 Remarques:
 
-```
-verb = arrel o lexema + terminació o desinència (-ar, -er, -ir, -ur, -re)
-```
+> verb = arrel o lexema + terminació o desinència (-ar, -er, -ir, -ur, -re)
 
 ---
 
@@ -580,3 +578,7 @@ Remarques sobre variació de lletres
     </table>
     <br>
 </div>
+
+Remarques sobre els verbs irregulars:
+
+> Els únics verbs irregulars de la 1ª conjugació són <i>anar</i> i <i>estar</i>.

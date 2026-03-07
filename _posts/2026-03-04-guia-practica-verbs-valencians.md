@@ -207,8 +207,6 @@ Remarques:
 
 ---
 
-<a id="model-de-la-1ª-conjugació-verbs-acabats-en-i-ari"></a>
-
 # Model de la 1ª conjugació. Verbs acabats en <i>-ar</i>
 
 <br>
@@ -582,3 +580,17 @@ Remarques sobre variació de lletres
 Remarques sobre els verbs irregulars:
 
 > Els únics verbs irregulars de la 1ª conjugació són <i>anar</i> i <i>estar</i>.
+
+---
+
+# Model de la 2ª conjugació. Verbs acabats en <i>-re</i>, <i>-ur</i> i <i>-er</i>
+
+<br>
+
+## Verbs acabats en <i>-re</i>
+
+<br>
+
+### Perdre
+
+#### Temps simples

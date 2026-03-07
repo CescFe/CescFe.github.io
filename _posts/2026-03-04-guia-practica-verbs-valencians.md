@@ -108,3 +108,5 @@ Remarques:
 ### Témer
 
 #### Temps simples
+
+{% include verbs/guia-temer-temps-simples.html %}

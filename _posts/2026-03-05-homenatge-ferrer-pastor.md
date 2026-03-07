@@ -19,7 +19,7 @@ related_posts: false
 
 # Francesc Ferrer Pastor: una vida dedicada al seu poble i a la seua llengua
 
-Autors: Francesc Ferrer Escrivà i Vicent Artur Moreno.
+Autors: Vicent Artur Moreno i Francesc Ferrer Escrivà.
 
 <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid loading="eager" path="assets/img/posts/homenatge_ferrer_pastor/02_homenatge_ferrer_pastor.png" alt="Font_dels_Xorros" class=post_image_class max-width=post_image_max_width_default %}

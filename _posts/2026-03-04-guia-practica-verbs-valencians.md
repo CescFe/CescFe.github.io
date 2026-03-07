@@ -110,3 +110,16 @@ Remarques:
 #### Temps simples
 
 {% include verbs/guia-temer-temps-simples.html %}
+
+En lletra negreta s'indiquen les variacions respecte dels verbs acabats en -re, que hi ha només en el futur i el condicional d'indicatiu.
+
+### Temps compostos
+
+Verbs acabats en -re i verbs acabats en -er.
+
+#### Perdre
+
+{% include verbs/guia-perdre-temps-compostos.html %}
+
+> Els temps compostos de la 2ª conjugació són idèntics als de la 1ª conjugació.
+{: .block-tip }

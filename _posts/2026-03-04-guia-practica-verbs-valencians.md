@@ -122,4 +122,4 @@ Verbs acabats en -re i verbs acabats en -er.
 {% include verbs/guia-perdre-temps-compostos.html %}
 
 > Els temps compostos de la 2ª conjugació són idèntics als de la 1ª conjugació.
-{: .block-tip }
+> {: .block-tip }

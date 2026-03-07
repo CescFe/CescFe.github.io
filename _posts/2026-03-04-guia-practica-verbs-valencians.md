@@ -29,6 +29,18 @@ a) Temps simples del verb <b><i>haver</i></b> per als temps compostos
   table.verbs-green-bg td {
     background-color: #b8e7b9 !important;
   }
+
+  table.verbs-gray-white thead th {
+    background-color: #dcdcdc !important;
+  }
+
+  table.verbs-gray-white tbody tr:nth-child(odd) td {
+    background-color: #f2f2f2 !important;
+  }
+
+  table.verbs-gray-white tbody tr:nth-child(even) td {
+    background-color: #ffffff !important;
+  }
 </style>
 
 <div class="col-sm mt-3 mt-md-0 text-center">
@@ -338,5 +350,66 @@ Temps simples
       <sup>1</sup> També: cant-às, cant-ass-es, cant-às, cant-àss-em, cant-àss-eu, cant-ass-en.
       <a href="#fnref-cantar-1" aria-label="Tornar a la referència" style="text-decoration: none;">↩</a>
     </p>
+    <br>
+</div>
+
+Remarques sobre variació de lletres
+
+<div class="col-sm mt-3 mt-md-0 text-center">
+    <table class="table table-sm table-bordered mx-auto verbs-fixed-colors verbs-gray-white" style="max-width: 900px; width: 100%; table-layout: fixed; --bs-table-color: #000;">
+        <thead>
+            <tr>
+                <th style="text-align: left; padding-left: 12px;">Si el radical<br>acaba en</th>
+                <th style="text-align: left; padding-left: 12px;">i la desinència<br>comença en</th>
+                <th style="text-align: left; padding-left: 12px;">canvia a</th>
+                <th style="text-align: left; padding-left: 12px;">exemple</th>
+                <th style="text-align: left; padding-left: 12px;">&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left; padding-left: 12px;">c</td>
+                <td style="text-align: left; padding-left: 12px;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px;">qu</td>
+                <td style="text-align: left; padding-left: 12px;">tanc-ar</td>
+                <td style="text-align: left; padding-left: 12px;">tanqu-es</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px;">ç</td>
+                <td style="text-align: left; padding-left: 12px;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px;">c</td>
+                <td style="text-align: left; padding-left: 12px;">començ-ar</td>
+                <td style="text-align: left; padding-left: 12px;">comenc-i</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px;">g</td>
+                <td style="text-align: left; padding-left: 12px;">e, i</td>
+                <td style="text-align: left; padding-left: 12px;">gu</td>
+                <td style="text-align: left; padding-left: 12px;">pag-ar</td>
+                <td style="text-align: left; padding-left: 12px;">pagu-e</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px;">j</td>
+                <td style="text-align: left; padding-left: 12px;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px;">g</td>
+                <td style="text-align: left; padding-left: 12px;">jutj-ar</td>
+                <td style="text-align: left; padding-left: 12px;">jutg-em</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px;">gu</td>
+                <td style="text-align: left; padding-left: 12px;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px;">gü</td>
+                <td style="text-align: left; padding-left: 12px;">aigu-ar</td>
+                <td style="text-align: left; padding-left: 12px;">aigüi-aria</td>
+            </tr>
+            <tr>
+                <td style="text-align: left; padding-left: 12px;">qu</td>
+                <td style="text-align: left; padding-left: 12px;">&nbsp;</td>
+                <td style="text-align: left; padding-left: 12px;">qü</td>
+                <td style="text-align: left; padding-left: 12px;">liqu-ar</td>
+                <td style="text-align: left; padding-left: 12px;">liqü-em</td>
+            </tr>
+        </tbody>
+    </table>
     <br>
 </div>

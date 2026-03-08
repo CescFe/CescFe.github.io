@@ -116,7 +116,7 @@ Remarques sobre variació de lletres
 
 En lletra negreta s'indiquen les variacions respecte dels verbs acabats en -re, que hi ha només en el futur i el condicional d'indicatiu.
 
-## Temps compostos 
+## Temps compostos
 
 <br>
 

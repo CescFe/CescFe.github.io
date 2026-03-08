@@ -6,39 +6,6 @@ description: Guia pràctica de verbs valencians, amb flexions i conjugacions.
 tags: guia
 categories: posts
 related_posts: false
-_styles: |
-  table.verbs-fixed-colors,
-  table.verbs-fixed-colors th,
-  table.verbs-fixed-colors td {
-    color: #000 !important;
-  }
-
-  table.verbs-green-bg th,
-  table.verbs-green-bg td {
-    background-color: #b8e7b9 !important;
-  }
-
-  table.verbs-gray-white thead th {
-    background-color: #dcdcdc !important;
-  }
-
-  table.verbs-gray-white tbody tr:nth-child(odd) td {
-    background-color: #f2f2f2 !important;
-  }
-
-  table.verbs-gray-white tbody tr:nth-child(even) td {
-    background-color: #ffffff !important;
-  }
-
-  @media (max-width: 576px) {
-    .verbs-mobile-wrap {
-      white-space: normal !important;
-      overflow-wrap: anywhere;
-      word-break: break-word;
-      hyphens: auto;
-      line-height: 1.1;
-    }
-  }
 toc:
   beginning: true
 ---

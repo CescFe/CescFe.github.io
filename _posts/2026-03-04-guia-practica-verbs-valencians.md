@@ -266,3 +266,4 @@ Canvi de vocal del lexema (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> 
 
 # Participis més freqüents
 
+{% include verbs/24-guia-participis-frequents.html %}

@@ -29,6 +29,16 @@ _styles: |
   table.verbs-gray-white tbody tr:nth-child(even) td {
     background-color: #ffffff !important;
   }
+
+  @media (max-width: 576px) {
+    .verbs-mobile-wrap {
+      white-space: normal !important;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      hyphens: auto;
+      line-height: 1.1;
+    }
+  }
 toc:
   beginning: true
 ---

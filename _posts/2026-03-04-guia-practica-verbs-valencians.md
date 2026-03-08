@@ -51,7 +51,7 @@ Temps del verb <b><i>anar</i></b> per als temps compostos perifràstics.
 
 > Remarques:
 >
-> - verb = arrel o lexema + terminació o desinència (-ar, -er, -ir, -ur, -re)
+> - verb = arrel o lexema + terminació o desinència (<i>-ar</i>, <i>-er</i>, <i>-ir</i>, <i>-ur</i>, <i>-re</i>)
 
 ---
 
@@ -59,9 +59,11 @@ Temps del verb <b><i>anar</i></b> per als temps compostos perifràstics.
 
 <br>
 
-## Cantar
+## Temps simples
 
-Temps simples
+<br>
+
+### Cantar
 
 {% include verbs/03-guia-cantar-temps-simples.html %}
 
@@ -69,7 +71,11 @@ Remarques sobre variació de lletres
 
 {% include verbs/04-guia-cantar-remarques-variacio.html %}
 
-Temps compostos
+## Temps compostos
+
+<br>
+
+### Cantar
 
 {% include verbs/05-guia-cantar-temps-compostos.html %}
 
@@ -85,24 +91,40 @@ Temps compostos
 
 ## Temps simples
 
-### Perdre (verbs acabats en <i>-re</i>)
+<br>
+
+### Verbs acabats en <i>-re</i>
+
+<br>
+
+#### Perdre
 
 {% include verbs/06-guia-perdre-temps-simples.html %}
 
 > Remarques:
 >
-> - El verb dur és un verb de la 2a conjugació. Participi: dut, duta, duts, dutes. Present: duc, dus/duus, du/duu, duem, dueu, duen.
-> - Els verbs que acaben en -metre formen el participi amb -més, -mesa, -mesos, -meses. Exemple: admetre forma: admés, admesa, admesos, admeses.
+> - El verb <i>dur</i> és un verb de la 2ª conjugació. Participi: <i>dut</i>, <i>duta</i>, <i>duts</i>, <i>dutes</i>. Present: <i>duc</i>, <i>dus/duus</i>, <i>du/duu</i>, <i>duem</i>, <i>dueu</i>, <i>duen</i>.
+> - Els verbs que acaben en <i>-metre</i> formen el participi amb <i>-més</i>, <i>-mesa</i>, <i>-mesos</i>, <i>-meses</i>. Exemple: <i>admetre</i> forma: <i>admés</i>, <i>admesa</i>, <i>admesos</i>, <i>admeses</i>.
 
-### Témer (verbs acabats en <i>-er</i>)
+### Verbs acabats en <i>-er</i>
+
+<br>
+
+#### Témer
 
 {% include verbs/07-guia-temer-temps-simples.html %}
 
 En lletra negreta s'indiquen les variacions respecte dels verbs acabats en -re, que hi ha només en el futur i el condicional d'indicatiu.
 
-## Temps compostos (verbs acabats en <i>-re</i> i verbs acabats en <i>-er</i>)
+## Temps compostos 
 
-### Perdre
+<br>
+
+### Verbs acabats en <i>-re</i> i verbs acabats en <i>-er</i>
+
+<br>
+
+#### Perdre
 
 {% include verbs/08-guia-perdre-temps-compostos.html %}
 
@@ -112,9 +134,17 @@ En lletra negreta s'indiquen les variacions respecte dels verbs acabats en -re, 
 
 # Irregularitats de la 2ª conjugació. Verbs que afigen una consonant velar (c o g)
 
+<br>
+
 ## Temps simples
 
-### Doldre o Dolder (verbs acabats en <i>-ildre</i> i <i>-ler</i>)
+<br>
+
+### Verbs acabats en <i>-ldre</i> i <i>-ler</i>
+
+<br>
+
+#### Doldre o Dolder
 
 {% include verbs/09-guia-doldre-temps-simples.html %}
 
@@ -127,13 +157,17 @@ En lletra negreta s'indiquen les variacions respecte dels models.
 > - En tots els temps, el lexema o arrel perd la <i>d</i> (<i>dol-</i>) llevat del futur i condicional d'indicatiu (<i>dold-</i>).
 > - Té oberta la <i>o</i> del lexema o arrel quan està en una síl·laba tònica.
 
-### Conéixer o Conèixer (verbs acabats en <i>-ixer</i>)
+### Verbs acabats en <i>-ixer</i>
+
+<br>
+
+#### Conéixer o Conèixer
 
 {% include verbs/10-guia-coneixer-temps-simples.html %}
 
 > Remarques:
 >
-> - La 1ª pers. sing. del present d'indicatiu acaba en <i>c</i>
+> - La 1ª pers. sing. del present d'indicatiu acaba en <i>c</i>.
 > - El participi, el passat perfet d'indicatiu i els temps de subjuntiu i imperatiu (3ª sing. i 1ª i 3ª plural) canvien el grup <i>ix</i> per o <i>gu</i>.
 
 ### Verbs amb un diftong decreixent
@@ -142,14 +176,18 @@ Per exemple: caure, beure, escriure moure (<i>au</i>, <i>eu</i>, <i>iu</i>, <i>o
 
 <br>
 
-#### Beure (canvi de <i>u</i> en <i>v</i>)
+#### Canvi de <i>u</i> en <i>v</i>
+
+<br>
+
+##### Beure
 
 {% include verbs/11-guia-beure-temps-simples.html %}
 
 > Remarques:
 >
-> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació de l'epígraf a)
-> - Desapareix la <i>u</i> en present (1ª pers. sing.) i passat perfet d'indicatiu, present i passat imperfet de subjuntiu i imperatiu (llevat de la 2ª pers. sing.)
+> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació de l'epígraf a).
+> - Desapareix la <i>u</i> en present (1ª pers. sing.) i passat perfet d'indicatiu, present i passat imperfet de subjuntiu i imperatiu (llevat de la 2ª pers. sing.).
 > - Canvia la <i>u</i> en <i>v</i> en gerundi, present (1ª i 2ª pers. plural) i passat imperfet d'indicatiu.
 
 #### Canvi de <i>u</i> en <i>i</i> o desaparició de la <i>u</i>
@@ -170,7 +208,7 @@ Per exemple: caure, beure, escriure moure (<i>au</i>, <i>eu</i>, <i>iu</i>, <i>o
 > Remarques:
 >
 > - El verb coure té dos significats: preparar un aliment (verb transitiu) i patir coentor (verb intransitiu). En el primer cas, el participi és <i>cuit</i>, <i>cuita</i>, <i>cuits</i>, <i>cuites</i>; exemple: <i>ja he cuit els cigrons</i>. En el segon cas, el participi és: <i>cogut</i>, <i>coguda</i>, <i>coguts</i>, <i>cogudes</i>; exemple: <i>la ferida li ha cogut una setmana</i>.
-> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació de l'epígraf a)
+> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació de l'epígraf a) //TODO//
 > - Desapareix la <i>u</i> en present (1ª i 3ª pers. sing. i 1ª i 3ª pers. plural), passat perfet, subjuntiu i imperatiu (llevat de la 2ª pers. sing.)
 > - Canvia <i>u</i> per <i>i</i> en passat imperfet.
 > - Gerundi irregular (desapareix la <i>u</i>). Participi irregular (vegeu la taula de la p. 23). //TODO//
@@ -222,11 +260,19 @@ Canvi de vocal del lexema (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> 
 
 <br>
 
-### Llegir (<i>e</i> àtona canvia en <i>i</i> tònica)
+### <i>e</i> àtona canvia en <i>i</i> tònica
+
+<br>
+
+#### Llegir
 
 {% include verbs/17-guia-llegir-temps-simples.html %}
 
-### Collir (<i>o</i> àtona canvia en <i>u</i> tònica)
+### <i>o</i> àtona canvia en <i>u</i> tònica
+
+<br>
+
+#### Collir
 
 {% include verbs/18-guia-collir-temps-simples.html %}
 
@@ -279,7 +325,7 @@ Canvi de vocal del lexema (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> 
 
 > Remarques:
 >
-> - Verb defectiu: en indicatiu i subjuntiu només s'usen les formes de 3ª pers., sing. i plural.
+> - Accents diacrítics: <i>és</i>, <i>són</i>.
 
 ---
 

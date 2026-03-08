@@ -231,7 +231,7 @@ Canvi de vocal del lexema (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> 
 {% include verbs/18-guia-collir-temps-simples.html %}
 
 > Remarques:
-> 
+>
 > - La <i>e</i> àtona canvia en <i>i</i> tònica o la <i>o</i> àtona canvia en <i>u</i> tònica en present d'indicatiu i de subjuntiu i imperatiu (persones del singular i 3ª plural).
 
 ---

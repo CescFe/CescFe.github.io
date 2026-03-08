@@ -6,29 +6,6 @@ description: Guia pràctica de verbs valencians, amb flexions i conjugacions.
 tags: guia
 categories: posts
 related_posts: false
-_styles: |
-  table.verbs-fixed-colors,
-  table.verbs-fixed-colors th,
-  table.verbs-fixed-colors td {
-    color: #000 !important;
-  }
-
-  table.verbs-green-bg th,
-  table.verbs-green-bg td {
-    background-color: #b8e7b9 !important;
-  }
-
-  table.verbs-gray-white thead th {
-    background-color: #dcdcdc !important;
-  }
-
-  table.verbs-gray-white tbody tr:nth-child(odd) td {
-    background-color: #f2f2f2 !important;
-  }
-
-  table.verbs-gray-white tbody tr:nth-child(even) td {
-    background-color: #ffffff !important;
-  }
 toc:
   beginning: true
 ---
@@ -132,13 +109,15 @@ En lletra negreta s'indiquen les variacions respecte dels verbs acabats en -re, 
 
 ---
 
-# Irregularitats de la 2ª conjugació. Verbs que afigen una consonant velar (c o g)
+# Irregularitats de la 2ª conjugació. Verbs que afigen una consonant velar (<i>c</i> o <i>g</i>)
 
 <br>
 
 ## Temps simples
 
 <br>
+
+<div id="verbs-ldre-ler"></div>
 
 ### Verbs acabats en <i>-ldre</i> i <i>-ler</i>
 
@@ -208,10 +187,10 @@ Per exemple: caure, beure, escriure moure (<i>au</i>, <i>eu</i>, <i>iu</i>, <i>o
 > Remarques:
 >
 > - El verb coure té dos significats: preparar un aliment (verb transitiu) i patir coentor (verb intransitiu). En el primer cas, el participi és <i>cuit</i>, <i>cuita</i>, <i>cuits</i>, <i>cuites</i>; exemple: <i>ja he cuit els cigrons</i>. En el segon cas, el participi és: <i>cogut</i>, <i>coguda</i>, <i>coguts</i>, <i>cogudes</i>; exemple: <i>la ferida li ha cogut una setmana</i>.
-> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació de l'epígraf a) //TODO//
+> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació acabats en <i>-ldre</i> i <i>-ler</i>, <a href="#verbs-ldre-ler" aria-label="Anar a l'apartat de verbs acabats en -ldre i -ler" style="text-decoration: none">feu clic per veure l'exemple</a>.)
 > - Desapareix la <i>u</i> en present (1ª i 3ª pers. sing. i 1ª i 3ª pers. plural), passat perfet, subjuntiu i imperatiu (llevat de la 2ª pers. sing.)
 > - Canvia <i>u</i> per <i>i</i> en passat imperfet.
-> - Gerundi irregular (desapareix la <i>u</i>). Participi irregular (vegeu la taula de la p. 23). //TODO//
+> - Gerundi irregular (desapareix la <i>u</i>). Participi irregular (<a href="#participis-frequents" aria-label="Anar a l'apartat de participis més freqüents" style="text-decoration: none">vegeu la taula de participis més freqüents</a>).
 
 ---
 
@@ -328,6 +307,8 @@ Canvi de vocal del lexema (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> 
 > - Accents diacrítics: <i>és</i>, <i>són</i>.
 
 ---
+
+<div id="participis-frequents"></div>
 
 # Participis més freqüents
 

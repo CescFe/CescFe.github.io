@@ -210,10 +210,10 @@ Per exemple: caure, beure, escriure moure (<i>au</i>, <i>eu</i>, <i>iu</i>, <i>o
 > Remarques:
 >
 > - El verb coure té dos significats: preparar un aliment (verb transitiu) i patir coentor (verb intransitiu). En el primer cas, el participi és <i>cuit</i>, <i>cuita</i>, <i>cuits</i>, <i>cuites</i>; exemple: <i>ja he cuit els cigrons</i>. En el segon cas, el participi és: <i>cogut</i>, <i>coguda</i>, <i>coguts</i>, <i>cogudes</i>; exemple: <i>la ferida li ha cogut una setmana</i>.
-> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació acabats en <i>-ldre</i> i <i>-ler</i>). <a href="#verbs-ldre-ler" aria-label="Anar a l'apartat de verbs acabats en -ldre i -ler" style="text-decoration: none">↩</a>
+> - Afig una consonant velar (igual que els verbs irregulars de la 2ª conjugació acabats en <i>-ldre</i> i <i>-ler</i>, <a href="#verbs-ldre-ler" aria-label="Anar a l'apartat de verbs acabats en -ldre i -ler" style="text-decoration: none">feu clic per veure l'exemple</a>.)
 > - Desapareix la <i>u</i> en present (1ª i 3ª pers. sing. i 1ª i 3ª pers. plural), passat perfet, subjuntiu i imperatiu (llevat de la 2ª pers. sing.)
 > - Canvia <i>u</i> per <i>i</i> en passat imperfet.
-> - Gerundi irregular (desapareix la <i>u</i>). Participi irregular (vegeu la taula de la p. 23). //TODO//
+> - Gerundi irregular (desapareix la <i>u</i>). Participi irregular (<a href="#participis-frequents" aria-label="Anar a l'apartat de participis més freqüents" style="text-decoration: none">vegeu la taula de participis més freqüents</a>).
 
 ---
 
@@ -330,6 +330,8 @@ Canvi de vocal del lexema (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> 
 > - Accents diacrítics: <i>és</i>, <i>són</i>.
 
 ---
+
+<div id="participis-frequents"></div>
 
 # Participis més freqüents
 

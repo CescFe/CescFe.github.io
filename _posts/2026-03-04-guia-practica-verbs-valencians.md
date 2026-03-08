@@ -206,23 +206,48 @@ Remarques:
 
 # Irregularitats de la 3ª conjugació
 
-<br>
-
-## Canvi de vocal del lexema (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> àtona canvia en <i>u</i> tònica)
-
-<br>
+Canvi de vocal del lexema als temps simples (<i>e</i> àtona canvia en <i>i</i> tònica; <i>o</i> àtona canvia en <i>u</i> tònica)
 
 ### Temps simples (<i>e</i> àtona canvia en <i>i</i> tònica)
 
-<br>
+{% include verbs/17-guia-llegir-temps-simples.html %}
 
 ### Temps simples (<i>o</i> àtona canvia en <i>u</i> tònica)
+
+{% include verbs/18-guia-collir-temps-simples.html %}
+
+Remarques:
+
+> La <i>e</i> àtona canvia en <i>i</i> tònica o la <i>o</i> àtona canvia en <i>u</i> tònica en present d'indicatiu i de subjuntiu i imperatiu (persones del singular i 3ª plural).
 
 ---
 
 # Verbs irregulars importants
 
+{% include verbs/19-guia-anar-temps-simples.html %}
+
+Remarques:
+
+> - Irregular en present d'indicatiu i de subjuntiu i imperatiu (1ª, 2ª i 3ª pers. sing. i 3ª pers. plural).
+> - Accent diacrític en 2ª pers. sing. d'imperatiu.
+
+{% include verbs/20-guia-estar-temps-simples.html %}
+
+>Remarques:
+> - Les formes <i>està</i> i <i>esteu</i> de l'imperatiu són preferibles en formes pronominals: <i>està-te tranquila</i>, <i>esteu-vos quiets</i>.
+
+{% include verbs/21-guia-caldre-temps-simples.html %}
+
+>Remarques:
+> - Verb defectiu: en indicatiu i subjuntiu només s'usen les formes de 3ª pers., sing. i plural.
+
+{% include verbs/22-guia-fer-temps-simples.html %}
+
+{% include verbs/23-guia-ser-temps-simples.html %}
+
+>Remarques:
+> - Verb defectiu: en indicatiu i subjuntiu només s'usen les formes de 3ª pers., sing. i plural.
 ---
 
-# Alguns participis
+# Participis més freqüents
 

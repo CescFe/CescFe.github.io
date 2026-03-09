@@ -10,6 +10,12 @@ toc:
   beginning: true
 ---
 
+Autora: Empar Montoro
+
+Esta guia pràctica recull els principals models de conjugació dels verbs valencians, amb els temps simples i composts, les irregularitats més habituals i una selecció de participis freqüents. Està pensada com una ferramenta de consulta clara i ràpida, tant per a resoldre dubtes puntuals com per a repassar d'un colp d'ull les formes verbals més usuals.
+
+Si escrius, dones classe, estudies o simplement vols guanyar seguretat a l'hora de conjugar, ací trobaràs una referència ordenada per conjugacions i per tipus d'irregularitat. Això et permet localitzar amb facilitat el model que seguix cada verb i comprovar quines variants o canvis presenta.
+
 # Verbs auxiliars
 
 <br>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Francesc Ferrer Pastor':' l'home que xiuxiuejava paraules (1918-2020)
+title: "Francesc Ferrer Pastor: l'home que xiuxiuejava paraules (1918-2020)"
 date: 2025-08-24 19:00:00
-description: Imatges de l'exposició Francesc Ferrer Pastor':' l'home que xiuxiuejava paraules (1918-2020).
+description: "Imatges de l'exposició Francesc Ferrer Pastor: l'home que xiuxiuejava paraules (1918-2020)."
 tags: article
 categories: posts
 related_posts: false

@@ -66,15 +66,15 @@ ninja.data = [{
             window.location.href = "/blog/2026/guia-practica-verbs-valencians/";
           
         },
-      },{id: "post-la-matemàgica-d-39-enric-ramiro-ens-presenta-francesc-ferrer-pastor",
+      },{id: "post-francesc-ferrer-pastor-39-39-l-39-home-que-xiuxiuejava-paraules-1918-2020",
         
-          title: "La matemàgica d&#39;Enric Ramiro ens presenta Francesc Ferrer Pastor",
+          title: "Francesc Ferrer Pastor&#39;:&#39; l&#39;home que xiuxiuejava paraules (1918-2020)",
         
-        description: "activitat de matemàtiques i màgia per a totes les edats",
+        description: "Imatges de l&#39;exposició Francesc Ferrer Pastor&#39;:&#39; l&#39;home que xiuxiuejava paraules (1918-2020).",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/matemagica-enric-ramiro/";
+            window.location.href = "/blog/2025/exposicio-ferrer-pastor-xiuxiuejava-paraules/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",

@@ -141,7 +141,7 @@ I es converteix en l’home dels diccionaris. Ell fa que moltes cases acullen el
 
 En el seu discurs va dir:
 
-> “No em considere altra cosa que un humil treballador que, després d’anys de maquinista i caixista a les premses de Jornada i Levante i de corrector a Las Províncias, vaig aconseguir, l’any 1962, de muntar una empresa familiar, la impremta Fermar. He de confessar-vos que no crec haver reunit cap altre mèrit que el d’haver treballat tota la meua vida en favor de la llengua d’aquest País."
+> No em considere altra cosa que un humil treballador que, després d’anys de maquinista i caixista a les premses de Jornada i Levante i de corrector a Las Províncias, vaig aconseguir, l’any 1962, de muntar una empresa familiar, la impremta Fermar. He de confessar-vos que no crec haver reunit cap altre mèrit que el d’haver treballat tota la meua vida en favor de la llengua d’aquest País.
 
 Però Francesc Ferrer vol fer alguna cosa més pel seu país. Serà candidat pel Partit Nacionalista del País Valencià. No només paraules. Vol una societat millor, més democràtica i que puga viure en valencià. Durant la seua trajectòria va ordenar lexicogràficament el cabal de paraules valencianes endèmiques i el va compartir amb tota la comunitat lingüística... A finals dels anys 50 dos personatges abandonaven les rotatives de Las Províncias i enfilaven el carrer Trinquet de Cavallers. Tots dos anaven cap a l’estacioneta de Fusta.
 Allí, Ferrer digué a Estellés que havia d’escriure en valencià, perquè estava cridat a ser el millor poeta valencià des d’Ausiàs Marc. I Estellés li va fer cas.

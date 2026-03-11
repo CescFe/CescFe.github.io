@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/francesc-ferrer-pastor/";
           },
-        },{id: "post-homenatge-a-francesc-ferrer-pastor",
+        },{id: "post-recopilació-de-rondalles-de-francesc-ferrer-pastor",
+        
+          title: "Recopilació de rondalles de Francesc Ferrer Pastor",
+        
+        description: "Recull de rondalles en PDF de Francesc Ferrer Pastor.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/assets/pdf/rondalles_ferrer_pastor.pdf";
+          
+        },
+      },{id: "post-homenatge-a-francesc-ferrer-pastor",
         
           title: "Homenatge a Francesc Ferrer Pastor",
         
@@ -66,11 +77,11 @@ ninja.data = [{
             window.location.href = "/blog/2026/guia-practica-verbs-valencians/";
           
         },
-      },{id: "post-francesc-ferrer-pastor-39-39-l-39-home-que-xiuxiuejava-paraules-1918-2020",
+      },{id: "post-francesc-ferrer-pastor-l-39-home-que-xiuxiuejava-paraules-1918-2020",
         
-          title: "Francesc Ferrer Pastor&#39;:&#39; l&#39;home que xiuxiuejava paraules (1918-2020)",
+          title: "Francesc Ferrer Pastor: l&#39;home que xiuxiuejava paraules (1918-2020)",
         
-        description: "Imatges de l&#39;exposició Francesc Ferrer Pastor&#39;:&#39; l&#39;home que xiuxiuejava paraules (1918-2020).",
+        description: "Imatges de l&#39;exposició Francesc Ferrer Pastor: l&#39;home que xiuxiuejava paraules (1918-2020).",
         section: "Posts",
         handler: () => {
           
